@@ -1,0 +1,406 @@
+Hello Tim!
+
+I think I got even better Liero exe hacks this time!
+
+It was easy to find the don't-apply-gravity-when-on-ground code.
+The check is located at 03BD2h. This is a quote:
+
+cmp b,es:[di][000A4],000 ;A4 is the reaction force from below when the worm is
+loaded into es:di.
+jne 000003BE5   ;If reaction-force != 0 then don't apply gravity
+
+To remove it, change the bytes 26.80. at 03BD2 to EB.06. (Which means 'jmps +06').
+
+I also figured out why the gravity became negative when you negated the first
+value and not:ed the other one. I found that the ADC instruction makes sign
+extension for 8-bit values. In the code you sent, 'FF' is translated
+automatically to 'FFFF' which is '-1' in 16-bit.
+
+Now to the fun stuff:
+
+NOTE:
+The rows marked with '///' are just comments to you. You may remove them when
+you put up the material. The rows marked with just '/' may be kept.
+
+I must explain one thing which makes it easy to find parallells between data
+in the exe-file and data which Liero uses while running. If I take the line
+'mov al,[001B1]' as an example. How do you know where the data which is moved
+to AL is stored in the actual exe-file? It's very simple. The base of all the
+data in the exe-file is 110210d. By simply adding that number to 1B1h we will
+get the exact position of the data in the exe-file. 110210d + 1B1h = 110643.
+If you look at that position in the exe-file, you will see what's going to
+end up in AL when the code is ran.
+
+******************* Data offsets *******************
+
+B 0x00002311 - Bonus creation maximum X (hex:F801, 504d)
+B 0x0000231F - Bonus creation maximum Y (hex:F801, 504d)
+
+B 0x000029AB - Worm minimum X position (04h, 4d)
+B 0x000029BA - Worm minimum Y position (05h, 5d)
+W 0x000029C9 - Worm maximum X position (hex:F301h, 499d)
+W 0x000029D9 - Worm maximum Y position (hex:5801h, 344d)
+
+
+W 0x00002C94 - Bonus worm detection distance to the right (hex:0500, 5d)
+W 0x00002CB5 - Bonus worm detection distance to the left (hex:0500, 5d)
+W 0x00002CD6 - Bonus worm detection distance down (hex:0500, 5d)
+W 0x00002CF7 - Bonus worm detection distance up (hex:0700, 7d)
+
+/ These values are in percent of the health of the worm
+B 0x00002D56 - Health bonus randomized maximum strength (33h, 51d)
+W 0x00002D5D - Add this to bonus strength after randomize (hex:0A00, 10d)
+
+B 0x00002DB2 - Risk that a weapon bonus will explode when a worm walks on it (1 in X/2) (0Ah, 10d)
+
+*** To remove the risk completly
+W 0x00002DB1 - Change to hex:EB0D (hex:6A0A)
+
+ 
+
+W 0x0000329B - Ninjarope shootout speed X (2 raised to X) (hex:0200, 2d)
+W 0x000032BF - Ninjarope shootout speed Y (2 raised to X) (hex:0200, 2d)
+/ To double the shootout speed, add one to the values
+
+B 0x00004162 - Object to create when digging (03h, 3d, Particle (disappearing))
+
+/ These two values are only considered when a digging hole is created:
+B 0x000042FB - First shadow color (A4h, 164d)
+B 0x00004300 - Last shadow color (A7h, 167d)
+
+ 
+
+B 0x00005575 - If worm-part X position is less than this, don't apply gravity (00h, 0d)
+W 0x0000557B - If worm-part X position is more than this, don't apply gravity (hex:F701, 503d)
+
+W 0x00005753 - If object X position is more than this... (hex:F701, 503d)
+W 0x0000575E - ... change to this (hex:F701, 503d)
+W 0x00005763 - If object Y position is more than this... (hex:5D01, 349d)
+W 0x0000576E - ... change to this (hex:5D01, 349d)
+
+W 0x00006AB7 - If weapon object X position is more than this... (hex:F701, 503d)
+W 0x00006AC2 - ... change to this (hex:F701, 503d)
+W 0x00006AC7 - If weapon object Y position is more than this... (hex:5D01, 349d)
+W 0x00006AD2 - ... change to this (hex:5D01, 349d)
+
+B 0x00007820 - Maximum viewport scroll speed (03h, 3d)
+
+W 0x00009CAB - Ninjarope hook image translation x (hex:0100, 1d)
+W 0x00009CBA - Ninjarope hook image translation y (hex:0100, 1d)
+B 0x00009CC1 - Ninjarope hook image width (10h, 16d)
+B 0x00009CC3 - Ninjarope hook image height (03h, 3d)
+W 0x00009CD4 - Ninjarope hook frame offset (from the start of the graphics file. Frame number*16*16 = Frame offset) (hex:0054, 21504d)
+
+W 0x0000BECA - Chance to drop bonuses (1 in X) (hex:A406, 1700d)
+
+/// And now a thing I maybe will include in the PowerLevel2 format:
+
+W 0x0000490B - Worm respawn X randomize maximum (hex:EE01, 494d)
+W 0x00004913 - Add this to X after randomize (hex:0500, 5d)
+W 0x0000491D - Worm respawn Y randomize maximum (hex:5401, 340d)
+W 0x00004925 - Add this to Y after randomize (hex:0500, 5d)
+
+/ Minimum respawn distance from the other worm
+W 0x0000242E - Minimum respawn distance X1 (hex:A000, 160d)
+W 0x0000243B - Minimum respawn distance X2 (hex:A000, 160d)
+W 0x0000244B - Minimum respawn distance Y1 (hex:A000, 160d)
+W 0x00002458 - Minimum respawn distance Y2 (hex:A000, 160d)
+
+/ Changing just X1 and not X2 or Y1 and not Y2 will only have effect half the times.
+
+
+/ Warning! If the worm respawn X or Y value is lower than the two minimum
+/ respawn distances for X or Y added together the game will be traped in
+/ a recursive loop. That's also what's happening on some levels which has
+/ too much stone and too little dirt. So, by lowering the minimum respawn
+/ distances, you make the game more stable.
+
+/ The respawn of the worms works like this:
+/ * A random position is chosen
+/ * A hole is created at that position
+/ * The worm y position is increased until it stands on the ground
+/ * Then, the distance between it and the the other worm is checked, if it's too low
+/   the whole procedure is ran again.
+/ * After that, the worm y position is increased until it stands on a non-rock material
+/ For some reason, Joosa has chosen to approve the special-rock material to stand on.
+
+
+/// This is one thing you were looking for:
+W 0x0000788E - If viewport X is more than this... (hex:5A01, 346d)
+W 0x0000789B - ..change to this (hex:5A01, 346d)
+
+W 0x000078A6 - If viewport Y is more than this... (hex:C000, 192d)
+W 0x000078B3 - ..change to this (hex:C000, 192d)
+
+/// When the screen is shaking, the values are checked again. Here:
+W 0x00007960 - If viewport X is more than this... (hex:5A01, 346d)
+W 0x0000796D - ..change to this (hex:5A01, 346d)
+
+W 0x00007978 - If viewport Y is more than this... (hex:C000, 192d)
+W 0x00007985 - ..change to this (hex:C000, 192d)
+
+/// The code after these values actually draws the level.
+/// It is done in two stripes for some reason. The responsible function is
+/// located at 00EA2:001A8 and it is supplied with a pointer to the level,
+/// the pitch, how many bytes to draw and how many rows to draw. It would be
+/// possible to change these values in order to change the proportions of the level.
+
+W 0x0000FD35 - Width of level (hex:F801, 504d)
+W 0x0000FD38 - Height of level (hex:5E01, 350d)
+
+W 0x000079C7 - Level pitch in stripe 1 (hex:F801, 504d)
+W 0x000079CA - Width of stripe 1 (hex:9E00, 158d)
+B 0x000079CD - Height of stripe 1 (64h, 100d)
+
+W 0x00007A19 - Level pitch in stripe 2 (hex:F801, 504d)
+W 0x00007A1C - Width of stripe 2 (hex:9E00, 158d)
+B 0x00007A1F - Height of stripe 2 (3Ah, 58d)
+
+W 0x000125BF - Loading width of level (hex:F801, 504d)
+
+/ Remember! The level width must be a multiple of 8!
+
+/// By changing these values, I have actually decreased the size of the level!
+/// I haven't tried to increase it yet because I'm a bit scared that it
+/// actually can work! Maybe Liero allocates the amount of memory needed for the
+/// level.
+
+
+
+
+/ Every time the map is changed, the shadow is rebuilt in that area.
+/ Here are the offset to the shadow colors which are used in diffent situations.
+/ If you can figure out when the 'unknowned' offsets are used, please tell me.
+
+B 0x000027B2 - Offset to shadow colors (04h, 4) (unknown)
+B 0x000042E1 - Offset to shadow colors (04h, 4) (when digging)
+B 0x000044CC - Offset to shadow colors (04h, 4) (also when digging)
+B 0x00004B9A - Offset to shadow colors (04h, 4) (when worm respawn)
+B 0x00005917 - Offset to shadow colors (04h, 4) (unknown)
+B 0x00005FB6 - Offset to shadow colors (04h, 4) (unknown)
+B 0x000071AD - Offset to shadow colors (04h, 4) (unknown)
+B 0x0000B752 - Offset to shadow colors (04h, 4) (unknown)
+B 0x0000BA71 - Offset to shadow colors (04h, 4) (unknown)
+B 0x0000BD56 - Offset to shadow colors (04h, 4) (unknown)
+B 0x00012CC4 - Offset to shadow colors (04h, 4) (unknown)
+B 0x00012E32 - Offset to shadow colors (04h, 4) (at level loading)
+B 0x00014594 - Offset to shadow colors (04h, 4) (unknown)
+B 0x00014B6E - Offset to shadow colors (04h, 4) (at explosions)
+
+
+******************* Code tricks *******************
+
+
+*** Follow all the weapons (not just missiles)
+W 0x0000768E - Change to hex:EB08 (hex:80BD)
+
+ 
+
+*** Follow all the directional weapons (including laser weapons)
+W 0x00007692 - Change to hex:0173 (hex:0274)
+
+ 
+
+*** Disable one of the viewports
+/ This was quite hard to achive because I had to find some unnecessary code
+/ to replace. I found some code which checked if the viewport was valid to be
+/ drawn (which it always is) and that was just perfect! You must do all the
+/ changes in this list!
+
+D 0x00007987 - Change to hex:837EFE00, 'cmp w,[bp][-0002],00' (hex:A1020099)
+W 0x0000798B - Change to hex:7414, 'je 0000079A1'  (hex:8BC8)
+W 0x0000798D - Change to hex:EB15, 'jmps 0000079A4' (hex:8BDA)
+
+3*B 0x000079A1 - Change to hex:E91903, 'jmp 000007CBD'  (hex:E9E104)
+
+/ This will disable the first viewport. If you want to disable the other viewport,
+/ change 'cmp w,[bp][-0002],00' to 'cmp w,[bp][-0002],01'
+/ I don't know how to disable the drawing of worms, objects etc. but I'm pretty sure
+/ that I will find that soon too.
+
+ 
+
+
+*** Disable the can't-shoot-while-changing-weapon check
+B 0x0000349E - Change to 19h (03h)
+/ Hold down the change-button, fire-button and the left or right move key to try it out!
+
+ 
+
+
+*** Making weapon recoils signed
+/ This is one of the wanted things I have heard, so I spent some time on
+/ finding it. You must do all the changes in the list!
+
+D 0x000038AC - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+D 0x000038EC - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+
+/ When you want a weapon to have negative recoil, you just add 256 to the wanted recoil.
+/ For example, the cannons recoil (40) is negated to -40 + 256 = 216.
+/ Usually the code just adds zeros when the recoil is converted to a DWORD but this code
+/ extends the sign bit of the recoil throughout AH and DX and it is then signed!
+
+ 
+
+*** Making weapon blow away signed
+/ This is the same as above, only with different offsets.
+
+D 0x00006C90 - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+D 0x00006CC8 - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+
+/ If you are going to use this on the fan, you have to do some more changes to
+/ be able to apply a signed blow away on other objects than worms:
+
+D 0x000068CC - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+D 0x0000690B - Change to hex:98999090, 'cbw / cwd / nop / nop' (hex:30E431D2)
+
+ 
+
+
+*** Making weapon hit damage signed
+/// Uh? Why are we doing this? A weapon which can reload ourselfs? Don't hit the enemy!
+
+W 0x00006D10 - Change to hex:9890, 'cbw / nop'  (hex:30E4)
+
+ 
+
+*** Making the worm into a rubber ball
+/ This is a quite fun trick but unfortunalty a bit complicated to activate.
+/ You must change all the values below to make it work correctly
+
+B 0x00003A35 - Change to 01h (03h, 3d)
+B 0x00003AB2 - Change to 01h (03h, 3d)
+B 0x00003B2F - Change to 01h (03h, 3d)
+B 0x00003BAC - Change to 01h (03h, 3d)
+
+/ Warning! Nothing for sensitive people! Can make you sick if you play too long!
+
+ 
+
+
+******************* Code offsets *******************
+
+/ I have woundered what the f**k the function 14DD:4161 did and now I have found it!
+/ I converted the assembler code to pseudo-code and saw that the code actually
+/ generated bitmasks and byte offsets for material checking.
+
+
+0x0000212B - Code which checks on which places a bonus can be placed.
+0x000024A8 - Code which prevents the houses and the worms to end up in rock.
+
+/// The above code can be modified to remove the 'respawn in special rock'-bug.
+/// I haven't achieved any result when I try to do that however.
+
+/ To test these offsets you can try to change the byte at position 0x000024BB to 75h (original 74h).
+/ Then change to 'capture the flag' game mode and you will see that houses are forced to end up inside rock
+/ and the worms often respawn on top of them.
+
+/ Here are some of the worm<->level collision detection code offsets.
+
+0x0000297E - Code which checks if a worm can move through the material at the pixel.
+0x00002A9B - Code which checks if the pixel to the right of the worm is air.
+0x00002B01 - Code which checks if the pixel to the left of the worm is air.
+0x00002BD2 - Code which checks if the worm can stand to the left of a wall.
+0x00002C38 - Code which checks if the worm can stand to the right of a wall.
+
+/// The worm handle code is located between 0x000028E9 and 0x000048AB. I'm converting as much as possible
+/// of it to a C++ like pseudo-language. I have already translated the code which calculates the reaction
+/// forces on the worm, the border checking code and the code which checks if a worm picks up a bonus.
+
+
+/ To test the worm collision detection codes you can do this:
+/ Change the byte at 0x00002B14 to 74h (original: 75h) and the worm will hover if you stand close
+/ to the right of a flat wall. I don't know why that is happening, but I know that Liero thinks
+/ the worm is exposed for a reaction force from below.
+
+0x00004142 - Code which checks if a pixel can be thrown away when digging.
+0x0000555D - Code which handles the flags motion.
+0x000064D1 - Code which handles the collision detection for normal objects.
+0x000072A7 - Code which handles the motion of the bonuses.
+0x0000742E - Code which handles the motion of the blood.
+0x00007539 - Code which decides if a blood particle should be destroyed and drawn on the map.
+0x00008193 - Code which handles the gravity of the houses.
+0x0000A403 - Code which checks if the ninjarope can be attached.
+0x0000A507 - Code which checks if the pixels at the ninjarope attachment can be thrown away.
+0x00011B0E - Code which is a part of the hole creation function.
+
+0x00004D93 - Some of the AI code. This part checks if the worm is close enough to the other worm
+  and if it is, randomizes a number using the AI settings which is used to turn on/off
+  the shooting depending on the number and the state it had before.
+
+0x00004E0B - Change-button AI code
+
+0x0000494A - Code which increases the y position for the worm until it stands on ground (when respawning).
+
+
+/ This code is used every time Liero writes a pixel to the level.
+/ At this position, the code is used to draw a random blood
+/ particle on the map. The code uses a multiplication table
+/ which stores the address of each row in the level. To find
+/ where all the level manipulation code is, search for
+/ 'les di,[06674]'. It can't be used to anything but
+/ level manipulation.
+
+;Position 0x00007497:
+les di,[bp-4]  ;get the address of the blood particle
+mov dx,es:[di+3] ;dx = bloodparticle.x
+mov ax,es:[di+7] ;ax = bloodparticle.y
+shl ax,2  ;y*=4 to get the multiplication table right
+les di,[06674]  ;es:di = &multiplicationtable
+add di,ax  ;es:di = &multiplicationtable[y*4]
+les di,es:[di]  ;pointertopixel = multiplicationtable[y*4]
+add di,dx  ;pointertopixel = multiplicationtable[y*4]+x
+mov es:[di],cl  ;*pointertopixel = cl  ;cl is the color in this case
+
+/// I have found where the multiplication table is set up and that functions does
+/// some other things with the level also.
+
+
+******************* Other observations *******************
+
+/ There is a sine table and it is utilized by this code:
+
+mov di,angle
+
+;Multiply by eight. Each element has one
+;32-bit sine and one 32-bit cosine value.
+shl di,3
+
+;Get the sine values out of the table
+mov ax,[di+159E] ;Get first half of sine
+mov dx,[di+15A0] ;Get second half of sine
+mov cx,2  ;Shift count
+xor bx,bx
+call 014DD:03E7C ;Shift the value 2 steps left (multiply with 4) using the fixed-point shift function
+
+/ By searching for 'mov ax,[di+159E]' you will probably find most of
+/ the places the table is used.
+
+
+/ Checking if a key is pressed is also quite easy.
+/ This example code checks if the jump key is pressed.
+/ The formula for this in a more readable form is:
+/ keystate = keytable[keysettings[keyjump+wormnumber*7]]
+/ where keyjump is the offset from the key settings where the keys
+/ for jumping are placed.
+
+; Seven keys per worm:
+imul di,wormnumber,7
+
+; Get which key to check (6726 is the offset to the jump key)
+mov al,[di+06726]
+xor ah,ah
+mov di,ax
+
+; Check if the key is pressed (783B is the base of the keytable)
+cmp b,[di+0783B],000
+
+
+/ The main key settings offsets:
+6724 : Fire key
+6725 : Change button
+6726 : Jump key
+
+Was that enough for now? I'll be back with more soon!
+
+// Gliptic

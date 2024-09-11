@@ -1,0 +1,213 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr width="100%"><td>
+<h3>Liero data (DAT) file format</h3>
+<table border="1" cellspacing="0" width="100%" bordercolordark="#888888" bordercolorlight="#888888">
+  <tr>
+      <th width="10%">Offset</th>
+      <th width="20%">Field</th>
+      <th width="18%">Size</th>
+      <th width="50%">Contents</th>
+  </tr>
+  <tr>
+      <td valign="top">0000h</td>
+      <td valign="top">Max bonuses</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">This is the maximum number of bonuses in the game.</td>
+  </tr>
+  <tr>
+      <td valign="top">0001h</td>
+      <td valign="top">Loading times</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">This is the loading times setting. The number is the desired percentage of the default loading times. Treated as a Word in the game, but as a Short in the menu.</td>
+  </tr>
+  <tr>
+      <td valign="top">0003h</td>
+      <td valign="top">Number of lives</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">When the game mode is Kill'em all, this number is the lives setting.</td>
+  </tr>
+  <tr>
+      <td valign="top">0005h</td>
+      <td valign="top">Time to lose</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">When the game mode is Game of Tag, this number is the Time to Lose in seconds.</td>
+  </tr>
+  <tr>
+      <td valign="top">0007h</td>
+      <td valign="top">Flags to win</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">When the game mode is Capture the Flag or Simple CtF, this number is the Flags to win setting.</td>
+  </tr>
+  <tr>
+      <td valign="top">0009h</td>
+      <td valign="top">Screen sync</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Screen sync setting. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">000Ah</td>
+      <td valign="top">Map</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Minimap setting. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">000Bh</td>
+      <td valign="top">Controller player 1</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Controller setting for player 1. Possible values:<br>0 = Human<br>1 = CPU</td>
+  </tr>
+  <tr>
+      <td valign="top">000Ch</td>
+      <td valign="top">Controller player 2</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Controller setting for player 2. Possible values:<br>0 = Human<br>1 = CPU</td>
+  </tr>
+  <tr>
+      <td valign="top">000Dh</td>
+      <td valign="top">Random level</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Random level setting. Possible values:<br>0 = Custom level<br>1 = Random level</td>
+  </tr>
+  <tr>
+      <td valign="top">000Eh</td>
+      <td valign="top">Amount of blood</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Amount of blood in the game. The number is the desired percentage of the default amount of blood. Treated as a Word in the game, but as a Short in the menu.</td>
+  </tr>
+  <tr>
+      <td valign="top">0010h</td>
+      <td valign="top">Game mode</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Game mode setting. Possible values:<br>0 = Kill'em All<br>1 = Game of Tag<br>2 = Capture the Flag<br>3 = Simple CtF</td>
+  </tr>
+  <tr>
+      <td valign="top">0011h</td>
+      <td valign="top">Names on bonuses</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Names on bonuses setting. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">0012h</td>
+      <td valign="top">Reload level</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Reload level setting. Determines if the level has to be reloaded for every new game. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">0013h</td>
+      <td valign="top">Shadows</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Shadows setting. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">0014h</td>
+      <td valign="top">Weapon options</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Weapon avaliability for each of the 40 weapons (sorted by internal weapon number, see useful lists). Possible values:<br>0 = Menu<br>1 = Bonus<br>2 = Banned</td>
+  </tr>
+  <tr>
+      <td valign="top">003Ch</td>
+      <td valign="top">Color player 1</td>
+      <td valign="top">3 * 1 Byte</td>
+      <td valign="top">Color settings for player 1. The three values are Red, Green and Blue. Note: range is 0...63d.</td>
+  </tr>
+  <tr>
+      <td valign="top">003Fh</td>
+      <td valign="top">Color player 2</td>
+      <td valign="top">3 * 1 Byte</td>
+      <td valign="top">Color settings for player 2. The three values are Red, Green and Blue. Note: range is 0...63d.</td>
+  </tr>
+  <tr>
+      <td valign="top">0042h</td>
+      <td valign="top">Weapon equipment player 1</td>
+      <td valign="top">5 * 1 Byte</td>
+      <td valign="top">These values represent the 5 weapons of player 1. Weapons are sorted by weapon index (See Liero offset list). Note: range is 1...40d. Any double weapons will be replaced by a random weapon at the start of the game.</td>
+  </tr>
+  <tr>
+      <td valign="top">0047h</td>
+      <td valign="top">Weapon equipment player 2</td>
+      <td valign="top">5 * 1 Byte</td>
+      <td valign="top">These values represent the 5 weapons of player 2. Weapons are sorted by weapon index (See Liero offset list). Note: range is 1...40d. Any double weapons will be replaced by a random weapon at the start of the game.</td>
+  </tr>
+  <tr>
+      <td valign="top">004Ch</td>
+      <td valign="top">Health player 1</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Health setting for player 1.</td>
+  </tr>
+  <tr>
+      <td valign="top">004Eh</td>
+      <td valign="top">Health player 2</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Health setting for player 2.</td>
+  </tr>
+  <tr>
+      <td valign="top">0050h</td>
+      <td valign="top">Length player 1 name</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Length player 1 name. Liero will only read this number of bytes of the player 1 name data. If this value is 0, Liero will pick a name from NAMES.DAT.</td>
+  </tr>
+  <tr>
+      <td valign="top">0051h</td>
+      <td valign="top">Player 1 name</td>
+      <td valign="top">20 * 1 Byte</td>
+      <td valign="top">This is the name of player 1. If the name is less than 20 bytes long, the remaining bytes may be crap data or null bytes.</td>
+  </tr>
+  <tr>
+      <td valign="top">0065h</td>
+      <td valign="top">Length player 2 name</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Length player 2 name. Liero will only read this number of bytes of the player 2 name data. If this value is 0, Liero will pick a name from NAMES.DAT.</td>
+  </tr>
+  <tr>
+      <td valign="top">0066h</td>
+      <td valign="top">Player 2 name</td>
+      <td valign="top">20 * 1 Byte</td>
+      <td valign="top">This is the name of player 2. If the name is less than 20 bytes long, the remaining bytes may be crap data or null bytes.</td>
+  </tr>
+  <tr>
+      <td valign="top">007Ah</td>
+      <td valign="top">Load+Change</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Load+Change setting. Possible values:<br>0 = OFF<br>1 = ON</td>
+  </tr>
+  <tr>
+      <td valign="top">007Bh</td>
+      <td valign="top">Length DAT filename (?)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Length DAT filename.  Liero will only read this number of bytes of the DAT filename data. (?)</td>
+  </tr>
+  <tr>
+      <td valign="top">007Ch</td>
+      <td valign="top">DAT filename (?)</td>
+      <td valign="top">8 * 1 Byte</td>
+      <td valign="top">Liero will internally recognise the DAT file as this name. (?) If the name is less than 8 bytes long, the remaining bytes may be crap data or null bytes.</td>
+  </tr>
+  <tr>
+      <td valign="top">0084h</td>
+      <td valign="top">Player 1 key setup</td>
+      <td valign="top">7 * 1 Byte</td>
+      <td valign="top">This is the key setup for player 1. The keys are in this order:<br>Aim up key<br>Aim down key<br>Move left key<br>Move right key<br>Fire key<br>Change key<br>Jump key<br>Check the key list (In the useful lists section) to see which keys are available and how they are encoded.</td>
+  </tr>
+  <tr>
+      <td valign="top">008Bh</td>
+      <td valign="top">Player 2 key setup</td>
+      <td valign="top">7 * 1 Byte</td>
+      <td valign="top">This is the key setup for player 2. The keys are in this order:<br>Aim up key<br>Aim down key<br>Move left key<br>Move right key<br>Fire key<br>Change key<br>Jump key<br>Check the key list (In the useful lists section) to see which keys are available and how they are encoded.</td>
+  </tr>
+  <tr>
+      <td valign="top">0092h</td>
+      <td valign="top">Length level name</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Length level name.  Liero will only read this number of bytes of the level name data.</td>
+  </tr>
+  <tr>
+      <td valign="top">0093h</td>
+      <td valign="top">Level name</td>
+      <td valign="top">8 * 1 Byte</td>
+      <td valign="top">This is the level loaded at startup. If the name is less than 8 bytes long, the remaining bytes may be crap data or null bytes.</td>
+  </tr>
+</table>
+</td></tr></table>
+</body>
+</html>

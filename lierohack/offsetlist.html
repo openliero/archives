@@ -1,0 +1,1318 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>Liero offset list</h3>
+Please send any additions and corrections to me and I will update the list.
+<br><br>
+<table border="1" cellspacing="0" width="100%" bordercolordark="#888888" bordercolorlight="#888888">
+  <tr>
+      <td colspan="4" align="center">
+        <b>Mistery offsets</b>
+      </td>
+  </tr>
+
+  <tr>
+      <th width="10%">Offset</th>
+      <th width="20%">Field</th>
+      <th width="20%">Size</th>
+      <th width="50%">Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0000AF87h<br>0000AF88h</td>
+      <td valign="top">Menu system</td>
+      <td valign="top">? * 1 Byte</td>
+      <td valign="top">
+        Changing these values alters the animated item "DONE!" on the weapon
+        selection screen.
+      </td>
+  </tr>
+
+  <tr>
+      <td colspan="4" align="center">
+        <b>Main offset list</b>
+      </td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Various game settings</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">00002381h</td>
+      <td valign="top">Colors in blood</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Number of colors in the blood trail. Default = 2d</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00002388h</td>
+      <td valign="top">First blood color index</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index of blood trail. Default = 80d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003030h</td>
+      <td valign="top">Aiming limit (1a)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">Bottom limit aiming angle when facing right. (74h, 116d)
+                       straight down: 7Fh. A larger value will be considered negative.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003041h</td>
+      <td valign="top">Aiming limit (1b)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">If angle is more than maximum angle change to this. (74h, 116d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0000304Ah</td>
+      <td valign="top">Aiming limit (2a)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">Top limit aiming angle when facing right. (40h, 64d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003041h</td>
+      <td valign="top">Aiming limit (2b)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">If angle is less than minimum angle change to this. (40h, 64d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003066h</td>
+      <td valign="top">Aiming limit (3a)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">Bottom limit aiming angle when facing left (0Ch, 12d)
+                       straight down: 01h (actually it is 00h but that will create a tiny bug
+                       when changing direction from left to right).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003077h</td>
+      <td valign="top">Aiming limit (3b)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">If angle is less than maximum angle change to this (0Ch, 12d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003080h</td>
+      <td valign="top">Aiming limit (4a)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">Top limit aiming angle when facing left (40h, 64d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003091h</td>
+      <td valign="top">Aiming limit (4b)</td>
+      <td valign="top">1 Byte (Signed!)</td>
+      <td valign="top">If angle is more than minimum angle change to this (40h, 64d)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*000030FDh<br>00003103h</td>
+      <td valign="top">Aiming speed (1)</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Upwards aiming speed when facing left. Default = 4000d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*00003125h<br>0000312Bh</td>
+      <td valign="top">Aiming speed (2)</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Upwards aiming speed when facing right. Default = 4000d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*00003163h<br>00003169h</td>
+      <td valign="top">Aiming speed (3)</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Downwards aiming speed when facing right. Default = 4000d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*0000318Bh<br>00003191h</td>
+      <td valign="top">Aiming speed (4)</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Downwards aiming speed when facing left. Default = 4000d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">2*00003327h<br>0000332Dh</td>
+      <td valign="top">Jump force/speed</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Jump force/speed of the player worms. Default = 56064d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*00003BDEh<br>00003BE4h</td>
+      <td valign="top">Worm gravity</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Gravity on the player worms. Default = 1500d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00003F8Ch</td>
+      <td valign="top">Worm speed limit to the left</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">When the speed is above this (actually below to be exact), you cannot increase your
+                       speed by pressing the left move key. Default = (008Eh, -29184d).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*00003F97h<br>00003F9Dh</td>
+      <td valign="top">Worm acceleration left</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Worm acceleration to the left. Default = 3000d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0000400Dh</td>
+      <td valign="top">Worm speed limit to the right</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">When the speed is above this, you cannot increase your speed by pressing the right
+                       move key. Default = (0072h, 29184d).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">2*00004018h<br>0000401Eh</td>
+      <td valign="top">Worm acceleration right</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Worm acceleration to the right. Default = 3000d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">00004A08h<br>00004A1Ch<br>00004A30h<br>00004A44h</td>
+      <td valign="top">Scroll view lock distance</td>
+      <td valign="top">4 * 1 Word</td>
+      <td valign="top">These are the settings for the scrolling at the start of the game. (not when dying).
+                       When the scrolling view's distance to the player worm is less than (and maybe equal to)
+                       this number, the scrolling is stopped and the view is centered on the player. Default = 5.
+      </td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">2*000072C3h<br>000072C9h</td>
+      <td valign="top">Bonus gravity</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Gravity on the bonusses. Default = 1500d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">2*0000744Ah<br>00007450h</td>
+      <td valign="top">Blood trail gravity</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Secondary blood (blood trail) gravity. Default = 1000d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">2*0000A895h<br>0000A89Bh</td>
+      <td valign="top">Ninja rope gravity</td>
+      <td valign="top">24-bit signed</td>
+      <td valign="top">Vertical gravity on the ninja rope hook. Default = 1000d.</td>
+
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">0000D272h</td>
+      <td valign="top">Health limit</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Max health limit (signed value). Default = 10000d.</td>
+
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">0000E67Bh</td>
+      <td valign="top">Blood step down</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Blood setting step down (in options menu). Default = 25d.</td>
+
+  </tr>
+
+  <tr>
+      <td valign="top">0000E686h</td>
+      <td valign="top">Blood limit</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Blood limit in options menu. Default = 500</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0000E68Eh</td>
+      <td valign="top">Blood step up</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Blood setting step up (in options menu). Default = 25d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">0000F2B3h</td>
+      <td valign="top">Power fill delay
+      <td valign="top">1 Word</td>
+      <td valign="top">Delay at the beginning of a game. Default = 150d.</tr>
+
+
+
+  <tr>
+      <td valign="top">0000F5D4h</td>
+      <td valign="top">Background colors (1 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Number of colors in random generated background. Default = 4d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0000F5DBh</td>
+      <td valign="top">First background color (1 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index in random generated background. Default = 160d.</td>
+
+  </tr>
+
+  <tr>
+      <td valign="top">0000F5F8h</td>
+      <td valign="top">Background colors (2 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Number of colors in random generated background. Default = 4d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0000F5FFh</td>
+      <td valign="top">First background color (2 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index in random generated background. Default = 160d.</td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">00010FD2h</td>
+      <td valign="top">First ninja rope color (1 of 3 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index of ninja rope. Default = 62d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">00011069h</td>
+      <td valign="top">First color not in ninja rope (1 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Color index of the first color NOT used in the ninja rope. Default = 64d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001106Fh</td>
+      <td valign="top">First ninja rope color (2 of 3 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index of ninja rope. Default = 62d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">000110CDh</td>
+      <td valign="top">First color not in ninja rope (2 of 2 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Color index of the first color NOT used in the ninja rope. Default = 64d.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">000110D3h</td>
+      <td valign="top">First ninja rope color (3 of 3 values)</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">First color index of ninja rope. Default = 62d.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Random level settings</b></p><hr width="40%">
+        <p align="left">I'm really bored doing this now. :P So this will have to do for now:<br><br>
+        W 0x0001274F - Random level: Random dirt position X (hex:F801, 504d)                          <br>
+        W 0x00012757 - Random level: Subtract from random dirt position X (hex:0800, 8d)              <br>
+        W 0x0001275D - Random level: Random dirt position position Y (hex:5E01, 350d)                 <br>
+        W 0x00012765 - Random level: Subtract from random dirt position position Y (hex:0800, 8d)     <br>
+        B 0x00012768 - Random level: Number of dirt frames (04h, 4d)                                  <br>
+        W 0x00012772 - Random level: First dirt frame (hex:4500, 69d)                                 <br>
+        W 0x000128ED - Random level: Random bones position X (hex:F801, 504d)                         <br>
+        W 0x000128F5 - Random level: Subtract from random bones position X (hex:0800, 8d)             <br>
+        W 0x000128FB - Random level: Random bones position Y (hex:5E01, 350d)                         <br>
+        W 0x00012903 - Random level: Subtract from random bones position Y (hex:0800, 8d)             <br>
+        B 0x00012909 - Random level: Number of bone frames (04h, 4d)                                  <br>
+        W 0x00012910 - Random level: First bone frame (hex:3800, 56d)                                 <br>
+        W 0x00012990 - Random level: Random holes position X (hex:F801, 504d)                         <br>
+        W 0x00012998 - Random level: Subtract from random holes position X (hex:0800, 8d)             <br>
+        W 0x0001299E - Random level: Random holes position Y (hex:5E01, 350d)                         <br>
+        W 0x000129A6 - Random level: Subtract from random holes position Y (hex:0800, 8d)             <br>
+        W 0x00012AAB - Random level: Random large stones position X (hex:F801, 504d)                  <br>
+        W 0x00012AB3 - Random level: Subtract from random large stones position X (hex:1000, 16d)     <br>
+        W 0x00012AB9 - Random level: Random large stones position Y (hex:5E01, 350d)                  <br>
+        W 0x00012AC1 - Random level: Subtract from random large stones position Y (hex:1000, 16d)     <br>
+        W 0x00012BC3 - Random level: Random small stones position X (hex:F801, 504d)                  <br>
+        W 0x00012BCB - Random level: Subtract from random small stones position X (hex:0800, 8d)      <br>
+        W 0x00012BD1 - Random level: Random small stones position Y (hex:5E01, 350d)                  <br>
+        W 0x00012BD9 - Random level: Subtract from random small stones position Y (hex:0800, 8d)      <br>
+        <br></p>
+      </td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>CPU player settings</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AEF4h</td>
+      <td valign="top">Change weapon right</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player changes his weapon to the right. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AEF6h</td>
+      <td valign="top">Change weapon left</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player changes his weapon to the left. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AEF8h</td>
+      <td valign="top">Fire button press</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player fires. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AEFAh</td>
+      <td valign="top">Change button press</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player starts changing weapons. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AEFCh</td>
+      <td valign="top">Jump button press</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player tries to jump. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AF06h</td>
+      <td valign="top">Fire button release</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player stops firing (when firing?). 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AF08h</td>
+      <td valign="top">Change button release</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player stops changing weapons (when changing weapons?). 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AF0Ah</td>
+      <td valign="top">Jump button release</td>
+      <td valign="top">1 Short</td>
+      <td valign="top">Determines how often the cpu player releases the jump button. 0 = biggest chance.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Sound names & Menu strings</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001AF14h<br>---------<br>0001B021h</td>
+      <td valign="top">Sound names</td>
+      <td valign="top">30 * 9 Bytes</td>
+      <td valign="top">Each sound name is preceded by a single byte. This represents the
+                       length of the string. Each sound name can be max eight characters
+                       long.
+      </td>
+  </tr>
+
+
+
+  <tr>
+      <td valign="top">0001B08Ch<br>---------<br>0001B345h</td>
+      <td valign="top">Menu text strings</td>
+      <td valign="top">X * Y Bytes</td>
+      <td valign="top">Each menu string is preceded by a single byte. This represents the
+                       length of the string. The max length of the strings depend on which
+                       menu they are used for.
+      </td>
+  </tr>
+
+  <tr>
+      <td colspan="4" align="center">
+        <hr width="40%"><p align="center"><b>Object properties</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B346h</td>
+      <td valign="top">Worm detect range</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">This setting affects the distance at which an object hits a player worm.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B35Eh</td>
+      <td valign="top">Gravity</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">The force that drags the object to the earth. 5000 - Large gravity down, -5000 - Large gravity up.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B38Eh</td>
+      <td valign="top">Initial speed</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">(Max) start speed. Only works when scatter type is set to all directions.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B3BEh</td>
+      <td valign="top">Speed variation</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">(Negative) variation in initial speed.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B3EEh</td>
+      <td valign="top">Distribution</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">The distribution of the objects. 0 - The objects go straight, 32767 - The objects go in many directions.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B41Eh</td>
+      <td valign="top">Blow away</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Push away effect, like fan.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B436h</td>
+      <td valign="top">Speed multiply on bounce</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">After bouncing once the projectiles will get this percentage of their original speed.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B44Eh</td>
+      <td valign="top">Hit damage</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Direct damage projectiles do when hitting player worms.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B466h</td>
+      <td valign="top">Explode when hitting worm</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Explode when hitting worm.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B47Eh</td>
+      <td valign="top">Explode when stopped</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Explode when object is no longer in motion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B496h</td>
+      <td valign="top">Remove on worm hit</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Remove object when it hits a worm. Hit damage MUST be > 0 for this to work</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B4AEh</td>
+      <td valign="top">Blood when hitting worm</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">The amount of blood that an object causes to the target player.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B4C6h</td>
+      <td valign="top">Start frame/Sprite</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Start frame of animation, bullet sprite. If set to 0, it is a particle object.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B4DEh</td>
+      <td valign="top">Additional frames</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Number of additional frames in the animation loop.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B4F6h</td>
+      <td valign="top">Draw on map</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Draw object on map when stopped.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B50Eh</td>
+      <td valign="top">Color of particles</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Color index of particle objects.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B526h</td>
+      <td valign="top">Explosion type</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">How should the object explode. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B53Eh</td>
+      <td valign="top">Blown away/effected by explosions</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Is the object's speed and direction affected by other explosions.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B556h</td>
+      <td valign="top">Map change</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Map change/Dirt effect on explosion. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B56Eh</td>
+      <td valign="top">Splinter amount</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Amount of splinter (= new objects) created on explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B586h</td>
+      <td valign="top">Splinter color</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Color index of the splinter (if it is a particle). Will overwrite the color of the actual created object.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B59Eh</td>
+      <td valign="top">Splinter type</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Type of object created as splinter. See useful lists (objects).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B5B6h</td>
+      <td valign="top">Leave blood trail</td>
+      <td valign="top">24 * 1 Boolean</td>
+      <td valign="top">Does the object leave a blood trail.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B5CEh</td>
+      <td valign="top">Delay between blood particles</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Delay between blood particles in the blood trail.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B5E6h</td>
+      <td valign="top">Leave explosion/smoke trail</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Type of explosion/smoke trail the object has.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B5FEh</td>
+      <td valign="top">Density trail</td>
+      <td valign="top">24 * 1 Byte</td>
+      <td valign="top">Delay between explosions / smoke sprites in the trail. (Do not set to 0)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B616h</td>
+      <td valign="top">Time to explode</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">Maximum wait time to explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B646h</td>
+      <td valign="top">Variation in explosion time</td>
+      <td valign="top">24 * 1 Short</td>
+      <td valign="top">Maximum (negative) variation in time to explosion.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Weapon properties</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B676h</td>
+      <td valign="top">Weapon names</td>
+      <td valign="top">40 * 14 Bytes</td>
+      <td valign="top">Each weapon name is preceded by a single byte. This represents the
+                       length of the string. Each weapon name can be max thirteen characters
+                       long.
+      </td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B8A6h</td>
+      <td valign="top">Worm detect range</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">This setting affects the distance at which an object hits a player worm. Also determines starting distance from player.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B8CEh</td>
+      <td valign="top">Affected by worm motion</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Does the movement of the player affect the initial speed and direction of the bullets/projectiles? This is normally set to 0 for laser only.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B8F6h</td>
+      <td valign="top">Blow away</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Push away effect, like fan.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B91Eh</td>
+      <td valign="top">Weapon index</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">This is how the weapons are sorted in the weapon menu. The 1st byte is 04d which means the first weapon is Bazooka. The 2nd byte is 20d which means the second weapon is Big Nuke. And so on...</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B946h</td>
+      <td valign="top">Gravity</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">The force that drags the object to the earth. 5000 - Large gravity down, -5000 - Large gravity up.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B996h</td>
+      <td valign="top">Shadows</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Bullets/projectiles have shadows.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B9BEh</td>
+      <td valign="top">Laser sight</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Weapon has Laser sight.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001B9E6h</td>
+      <td valign="top">Fire sound</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Sound played when weapon is fired. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BA0Eh</td>
+      <td valign="top">Loop sound</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Loop sound while fire key is pressed and cut off sound as soon as fire key is released. Buggy.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BA36h</td>
+      <td valign="top">Impact sound</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Sound played on impact of weapon bullets/projectiles. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BA5Eh</td>
+      <td valign="top">Initial speed</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Start speed of bullets/projectiles.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BAAEh</td>
+      <td valign="top">Acceleration add</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Lineair increase in speed per frame.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BAFEh</td>
+      <td valign="top">Distribution</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">The distribution of the bullets/projectiles. 0 - The bullets go straight, 32767 - The bullets go in many directions.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BB4Eh</td>
+      <td valign="top">Bullets per burst</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Number of bullets fired in one shot.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BB76h</td>
+      <td valign="top">Recoil</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">The recoil of the gun. This is how much the worm is thrown backwards when firing a weapon.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BB9Eh</td>
+      <td valign="top">Acceleration/Deacceleration</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Speed is multiplied with this percentage every frame.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BBEEh</td>
+      <td valign="top">Delay between shots</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Delay (in frames) between two shots of the same weapon.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BC3Eh</td>
+      <td valign="top">Reloading times</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Loading time (in frames) of a weapon.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BC8Eh</td>
+      <td valign="top">Shots per charge</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Number of shots before weapon needs to be reloaded.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BCB6h</td>
+      <td valign="top">Explosion type</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">How should the weapon explode. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BCDEh</td>
+      <td valign="top">Map change</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Map change/Dirt effect on explosion. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BD06h</td>
+      <td valign="top">Frequency Shells ejected</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Set to 0,1,2,3 or 4. 0=Never, 1=Always,....,4=Rarely.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BD2Eh</td>
+      <td valign="top">Delay between shot and shell ejected</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Time (in frames) between shot and shell ejected.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BD56h</td>
+      <td valign="top">Play reload sound</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Play reload sound when weapon is reloaded.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BD7Eh</td>
+      <td valign="top">Explode on player impact</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Explode when hitting a player worm.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BDA6h</td>
+      <td valign="top">Explodes on impact rock/dirt</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Explode when hitting rock,dirt or the edge of the level.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BDCEh</td>
+      <td valign="top">Remove on player impact</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Bullet/projectile is removed when it hits a player worm.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BDF6h</td>
+      <td valign="top">Fire cone time</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Time (in frames) to show the fire cone when firing a weapon.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BE1Eh</td>
+      <td valign="top">Fan</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Can push away particles and projectiles. Normally used for fan only.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BE46h</td>
+      <td valign="top">Blown away/effected by explosions</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Is the object's speed and direction affected by other explosions.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BE6Eh</td>
+      <td valign="top">Speed multiply on bounce</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">After bouncing once the projectiles will get this percentage of their original speed.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BE96h</td>
+      <td valign="top">Time to explode</td>
+      <td valign="top">40 * 1 Word</td>
+      <td valign="top">Maximum wait time to explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BEE6h</td>
+      <td valign="top">Variation in explosion time</td>
+      <td valign="top">40 * 1 Word</td>
+      <td valign="top">Maximum (negative) variation in time to explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BF36h</td>
+      <td valign="top">Hit damage</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Direct damage bullets/projectiles do when hitting player worms.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BF5Eh</td>
+      <td valign="top">Blood when hitting worm</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">The amount of blood that a weapon causes to the target player.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BF86h</td>
+      <td valign="top">Start frame/Sprite</td>
+      <td valign="top">40 * 1 Short</td>
+      <td valign="top">Start frame of animation, bullet sprite. If set to -1, it is a particle bullet.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BFD6h</td>
+      <td valign="top">Additional frames</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Number of additional frames in the animation loop.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001BFFEh</td>
+      <td valign="top">Loop animation</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Loop the animation of the projectile.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C026h</td>
+      <td valign="top">Projectile moving type</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">What the fired object should be treated like. If it is set to any of the directional settings, the object will show different frames in the animation when it is turned in different angles if the 'Additional frames' setting is set to 0. 0=Normal, 1=Direction-A, 2=Direction Steerable, 3=Direction-B, 4=Laser type</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C04Eh</td>
+      <td valign="top">Color of bullets</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Color index of the bullets. (Only useful when weapon is bullet/particle type).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C076h</td>
+      <td valign="top">Splinter amount</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Amount of splinter (= objects) created on explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C09Eh</td>
+      <td valign="top">Splinter color</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Color index of the splinter (if it is a particle). Will overwrite the color of the actual created object.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C0C6h</td>
+      <td valign="top">Splinter type</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Type of object created as splinter. See useful lists (objects).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C0EEh</td>
+      <td valign="top">Splinter scatter type</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Way in which the splinter is scattered when the weapon explodes. 0=all directions (like big nuke) 1=direction the weapon is moving (like mini nuke)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C116h</td>
+      <td valign="top">Leave explosion/smoke trail</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Type of explosion/smoke trail the object has.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C13Eh</td>
+      <td valign="top">Density trail</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Delay between explosions / smoke sprites in the trail. (Do not set to 0)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C166h</td>
+      <td valign="top">Type of object trail</td>
+      <td valign="top">40 * 1 Boolean</td>
+      <td valign="top">Way in which the weapon should drop objects: 0=Crackler (all directions), 1=Larpa (The direction the weapon is moving).</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C18Eh</td>
+      <td valign="top">Leave object trail</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Type of objects/particles to drop. See useful list for values.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1B6h</td>
+      <td valign="top">Delay between objects</td>
+      <td valign="top">40 * 1 Byte</td>
+      <td valign="top">Delay (in frames) between the drop of objects.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Bonus properties</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1DEh</td>
+      <td valign="top">Weapon bonus sprite</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Sprite number for weapon-bonus.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1DFh</td>
+      <td valign="top">Health bonus sprite</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Sprite number for health-bonus.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E0h</td>
+      <td valign="top">Explosion type for weapon bonus</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Explosion type for weapon-bonus. See useful lists.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E1h</td>
+      <td valign="top">Explosion type for health-bonus</td>
+      <td valign="top">1 Byte</td>
+      <td valign="top">Explosion type for health-bonus. See useful lists.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E2h</td>
+      <td valign="top">Min time weapon bonus</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Minimum number of frames before weapon-bonus explodes. (Note: 1 is minimum)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E4h</td>
+      <td valign="top">Min time health bonus</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Minimum number of frames before health-bonus explodes. (Note: 1 is minimum)</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E6h</td>
+      <td valign="top">Max extra time weapon bonus</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Max additional frames before weapon-bonus explodes.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1E8h</td>
+      <td valign="top">Max extra time health bonus</td>
+      <td valign="top">1 Word</td>
+      <td valign="top">Max additional frames before health-bonus explodes.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Settings of 'Map changes'</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1EAh</td>
+      <td valign="top">Hole-in-dirt sprite</td>
+      <td valign="top">9 * 1 Byte</td>
+      <td valign="top">Controls which sprite is used to cut a hole in dirt.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C1F4h<br>0001C1FEh</td>
+      <td valign="top">Unknown</td>
+      <td valign="top">2 * 9 * 1 Byte</td>
+      <td valign="top">2 yet to identify properties.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C208h</td>
+      <td valign="top">Do not draw on background color</td>
+      <td valign="top">9 * 1 Byte</td>
+      <td valign="top">Causes Liero not to draw the anti alias edges on the background. Normally turned off for dirt- and greenball.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Explosion / Smoke (Special object) Settings</b></p><hr width="40%">
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C212h</td>
+      <td valign="top">First sound</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">First sound to choose from.  See useful lists for sound numbers.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C220h</td>
+      <td valign="top">Choose from X sounds</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Choose from X sounds starting at the First sound (see above). See useful lists for sound numbers.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C22Eh</td>
+      <td valign="top">Delay between frames</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Delay (in time frames) between the animation frames.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C23Ch</td>
+      <td valign="top">Start frame animation</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">First frame of the animation.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C24Ah</td>
+      <td valign="top">Number of frames</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Number of frames in the animation.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C258h</td>
+      <td valign="top">Detect distance</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Distance at which flash damage can hit the player worms.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C266h</td>
+      <td valign="top">Damage</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">The damage an explosion can do to a player worm.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C274h</td>
+      <td valign="top">Blow away</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Push away effect, like fan.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C2A8h</td>
+      <td valign="top">Shadows</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Explosion / smoke has a shadow.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C2B6h</td>
+      <td valign="top">Strength of earthquake effect</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Strength & duration of the earthquake effect caused by explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C2C4h</td>
+      <td valign="top">Duration of flash effect</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Duration of the light flash effect caused by explosion.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C2D2h</td>
+      <td valign="top">Map change</td>
+      <td valign="top">13 * 1 Byte</td>
+      <td valign="top">Map change/Dirt effect on explosion. See useful lists for values.</td>
+  </tr>
+
+  <tr>
+      <td colspan="4"><hr width="40%">
+        <p align="center"><b>Material settings</b></p><hr width="40%"><br>
+          <p align="center">
+          Data blocks are 32 bytes long. 1 byte contains property for 8 colors.<br>
+          For example: value 240d == 00001111 converted to reversed binary string.<br>
+          This means the property is set for the last 4 colors in that group of 8 colors.<br>
+          </p>
+      </td>
+  </tr>
+
+  <tr>
+      <th>Offset</th>
+      <th>Field</th>
+      <th>Size</th>
+      <th>Contents</th>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C2E0h</td>
+      <td valign="top">Is dirt (brown edged)</td>
+      <td valign="top">32 * 1 Byte</td>
+      <td valign="top">Acts like dirt: weapon projectiles collide with this matter,
+                       weapons can destroy it, ninja rope can attach to it.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C300h</td>
+      <td valign="top">Is dirt (green edged)</td>
+      <td valign="top">32 * 1 Byte</td>
+      <td valign="top">Same as the above accept when digging, the edges have a different color.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C320h</td>
+      <td valign="top">Is rock</td>
+      <td valign="top">32 * 1 Byte</td>
+      <td valign="top">Acts like rock, weapon projectiles collide with this matter,
+                       ninja rope can attach to it.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C340h</td>
+      <td valign="top">Is background</td>
+      <td valign="top">32 * 1 Byte</td>
+      <td valign="top">Acts like background: you cannot stand on this.
+                       If this is off you <u>can</u> stand on this.</td>
+  </tr>
+
+  <tr>
+      <td valign="top">0001C360h</td>
+      <td valign="top">Shadows visible</td>
+      <td valign="top">32 * 1 Byte</td>
+      <td valign="top">On this color you can see the shadow of rock & dirt (shadow = normal index +4).</td>
+  </tr>
+
+</td></tr></table>
+
+</td></tr></table>
+</body>
+</html>

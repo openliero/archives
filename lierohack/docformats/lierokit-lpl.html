@@ -1,0 +1,16 @@
+<html>
+    <head><title>LieroKit Palette (LPL) file format</title></head>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>LieroKit Palette (LPL) file format</h3>
+This format is exactly the same as the ACT palette format.<br>
+<br>
+The palette is an ordinary 24-bit palette: 3 bytes for each color,
+representing the Red, Green and Blue values ranging from 0 to 255. There are 256 colors and no
+white spaces in the palette, so the file is 3*256=768 bytes in size.<br>
+<br>
+Before inserting the palette in LIERO.EXE, the palette should be converted to '18-bit': Also 3 bytes for each color, but the last (first?) two
+bits are always 0 so the values range from 0 to 63. This is the palette type used by Liero.
+</td></tr></table>
+</body>
+</html>

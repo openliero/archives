@@ -1,0 +1,24 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>Liero graphics (CHR) file format</h3>
+By Sander de Jong<br>
+http://lieronet.cjb.net<br>
+<br>
+The CHR file format is very simple. It is raw data, meaning there is no sort of compression or whatsoever.
+The first 10 bytes of the CHR file is the header. The first 5 bytes of it is the word 'LIERO'. Byte 6-10 are the bytes 00 02 10 10 6E. Nobody knows what these values mean, but just keep them this way.<br>
+<br>
+After that, the real picture comes. This is devided in 3 parts: a part of 16 pixels wide and 1760 high, then a part of 7 pixels wide and 910 high and the third part is 4 pixels wide and 120 high.<br>
+This data is stored right after each other, no breaks. So, in short:<br>
+<br>
+Header, 10 bytes<br>
+Picture 1, 16x1760 pixels<br>
+Picture 2,  7x910  pixels<br>
+Picture 3,  4x120  pixels<br>
+<br>
+The values of the pixels are the same as in the Liero palette, color 0 is transparent.<br>
+<br>
+That's all! Now you know how the CHR file works. Hope I helped enough.
+</td></tr></table>
+</body>
+</html>

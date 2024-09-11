@@ -1,0 +1,13 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>Liero level (LEV) file format</h3>
+The Liero level format is actually quite easy. Liero level files do not contain a header of any kind.
+The dimensions of a Liero level are 504*350. Each byte in the level file corresponds to a pixel in the level.
+So level files should always be 504*350=176400 bytes in size. Levels made by WormHole however are 176402 bytes in size.
+Because of a small bug in the program, these levels include a DOS end of line (0Dh 0Ah) at the end of the file.<br>
+<br>
+The values in the Liero level files are used as a color index number and as a material index number in the game.
+</td></tr></table>
+</body>
+</html>

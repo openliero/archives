@@ -1,0 +1,83 @@
+Hello Tim!
+Time for hacks again. These are just a few of the big amount I could find
+out of the present sourcecode. I'm at the point when I can't write down
+all the code hacks possible so people have to tell me what they want to
+have hacks for. You will probably put this letter up on the page as it is,
+so I shouldn't write more. Here are the hacks:
+
+******************* Data offsets *******************
+
+/ You must change all these
+B 0x00003CCF - Laser weapon index (1Dh, 29d)
+B 0x00009602 - Laser weapon index (1Dh, 29d)
+B 0x00009DBD - Laser weapon index (1Dh, 29d)
+
+/ These are expressed as 'angle += (cycle & value) + 1' where cycle is the
+number of frames past since Liero was started. That makes the rotation
+irregular.
+W 0x00002F17 - Steerable weapon speed CCW (1h, 1d)
+W 0x00002F38 - Steerable weapon speed CW (1h, 1d)
+
+B 0x000031D0 - Ninjarope length adjustment when pressing Change+Up (18h,
+24d)
+B 0x000031F0 - Ninjarope length adjustment when pressing Change+Down (18h,
+24d)
+W 0x00003206 - If ninjarope is shorter than this... (hex:AA00, 170d)
+W 0x00003211 - ... change to this (hex:AA00, 170d)
+W 0x00003229 - If ninjarope is longer than this... (hex:A00F, 4000d)
+W 0x00003234 - ... change to this (hex:A00F, 4000d)
+
+B 0x0000396D - Object used as shells (08h, 8d, Shells)
+
+W 0x000039BC - Worm friction in percent (59h, 89d)
+/ Set to 100d (64h) and play some worm hockey!
+
+/ Warning!!! Do not increase these values! It will have undesirable
+results!
+W 0x00003EBE - Max selectable weapons (hex:0500, 5d) (when changing
+weapons down)
+B 0x00003F0A - Max selectable weapons (hex:0500, 5d) (when changing
+weapons up)
+
+B 0x00004614 - Object which worms bleed (07h, 7d, Blood)
+
+W 0x00004772 - Delay between death and resurrection (96h, 150d)
+
+W 0x0000F623 - First color in dirtball texture (hex:0C00, 12d) (texture
+variant 1)
+B 0x0000F61C - Number of colors in dirtball texture (04h, 4d) (texture
+variant 1)
+W 0x0000F647 - First color in dirtball texture (hex:0C00, 12d) (texture
+variant 2)
+B 0x0000F640 - Number of colors in dirtball texture (04h, 4d) (texture
+variant 2)
+
+W 0x0000F66B - First color in greenball texture (hex:5E00, 94d) (texture
+variant 1)
+B 0x0000F664 - Number of colors in greenball texture (04h, 4d) (texture
+variant 1)
+W 0x0000F68F - First color in greenball texture (hex:5E00, 94d) (texture
+variant 2)
+B 0x0000F688 - Number of colors in greenball texture (04h, 4d) (texture
+variant 2)
+
+/ The reason that there are two settings is that there are two codes in
+the drawing function for different deltas
+B 0x00010CBA - Laser sight opacity (05h, 5d) (first)
+B 0x00010CCB - Number of colors in laser sight minus one (02h, 2d) (first)
+B 0x00010CD2 - First color in laser sight (53h, 83d) (first)
+
+B 0x00010D23 - Laser sight opacity (05h, 5d) (second)
+B 0x00010D34 - Number of colors in laser sight minus one (02h, 2d) (second)
+B 0x00010D3B - First color in laser sight (53h, 83d) (second)
+
+
+******************* Code hacks *******************
+
+*** Making the worm into a digging machine:
+B 0x00004097 - Change to 01h (00h, 0d)
+
+/ Send in code hack requests to (-- email address removed --). I have lack
+of imagination!
+
+// Gliptic

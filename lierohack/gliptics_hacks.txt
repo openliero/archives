@@ -1,0 +1,71 @@
+            Hello, Tim!
+
+Here are some really good Liero.exe hacks. I'm writing them with this
+layout (you probably remember but I write it again to make sure):
+
+[B|W|D][s] offset - Description (default value)
+
+B - Byte
+W - Word
+D - DWORD
+s - Signed
+
+Here are the hacks:
+
+*** Value - hacks are in the Liero offset list ***
+
+*** Here are some other things you can try if you are bored ***
+
+/// Negative worm gravity ///
+
+B 0x00003BDC - Change to 6Dh (45h)
+B 0x00003BE2 - Change to 5Dh (55h)
+Note! Both values must be changed to make it correct.
+
+The same can be made with the other gravity settings. For example, the
+gravity on bonuses is located at 72C3. Subtract 2 from that number and you
+will get the address of the first value (address: 72C1) which should be
+changed to 6Dh. Take the gravity on bonuses address again and now add 4 to
+it and you will get the second value (address: 72C7) which should be
+changed to 5Dh. Here are the values this method can be used on:
+
+* Worm gravity
+* Gravity on bonuses
+* Secondary blood gravity
+* Vertical gravity on the ninjarope
+
+It can also be used with jump force/speed but the values should be changed
+to 45h and 55h instead (The original values is in this case 6Dh and 5Dh).
+
+------
+
+/// Removing the one-press-one-jump checking code ///
+
+W 0x0000331B - Change to hex:EB06 (hex:2680)
+
+This makes Liero skip the one-press-one-jump checking code. This hack
+makes the worms able to jump all the time by holding down the jump key.
+
+------
+
+/// Removing the check-if-on-ground-when-jumping code ///
+
+W 0x00003313 - Change to hex:EB06 (hex:2680)
+
+This can be used to make a vertical jetpak just like in Nex7+.
+
+------
+
+Here are some interesting code offsets:
+
+0x00002237 - Generate random level procedure
+0x0000285C - Procedure that handles the worms
+0x000073A6 - Handles a specified object
+0x0000A09D - The loop that handles objects in the game (calls 0x000073A6
+for each object)
+0x0000A7F9 - Applies force to the worms from the ninja rope
+0x0001145F - Palette output procedure
+0x00011755 - Wait for vertical retrace
+0x00016318 - Keyboard interupt handler
+0x0001AB94 - Procedure that generates random numbers
+

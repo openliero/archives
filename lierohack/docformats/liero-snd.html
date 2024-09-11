@@ -1,0 +1,35 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>Liero sound (SND) file format</h3>
+The file starts with a Word that represents the number of sound effects in the file. Because Liero
+will most likely never support more than 30 sounds this Word is always set to 1Eh 00h (=30 decimal).<br>
+<br>
+After that there is a special entry for all 30 sound effects in this order:<br>
+SHOTGUN, SHOT, RIFLE, BAZOOKA, BLASTER, THROW, LARPA, EXP3A, EXP3B, EXP2, EXP3,
+EXP4, EXP5, DIRT, BUMP, DEATH1, DEATH2, DEATH3, HURT1, HURT2, HURT3, ALIVE, BEGIN,
+DROPSHEL, RELOADED, MOVEUP, MOVEDOWN, SELECT, BOING, BURNER.<br>
+I'm not sure if this order is compulsory, but why change it?<br>
+<br>
+Each entry consists of:<br>
+- The sound effect name filled up with null bytes to get exactly 8 bytes.<br>
+- A DWord indicating the beginning (offset) of the sound effect in the file.<br>
+- Another DWord indicating the length of the sound effect in bytes.<br>
+<br>
+So the header is (8+4+4)*30 = 480 bytes. 482 bytes including the first 2 bytes. After the header the
+sound data begins. The sound Liero uses is 8-bit PCM signed mono @22050 Hz.<br>
+<br>
+There are a few more interesting things to know about the Liero SND:
+<ul>
+    <li>The original sound file has some annoying clicks/pops at the beginnig and/or the end of some sound
+        effects. It may be a good idea to chop off the first and last few bytes of each sound when dealing
+        with the original sound file. (Liero SND Tools does this too).</li>
+    <li>Sound effects can be completely disabled by setting both the starting offset and the length of the
+        sound effect to zero.</li>
+    <li>The same piece of sound data can be used for more than one sound effect. In other words, they can
+        have exactly the same starting offset and length. It is also possible for sounds to partially
+        overlap.</li>
+</ul>
+</td></tr></table>
+</body>
+</html>

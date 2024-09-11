@@ -1,0 +1,23 @@
+<html>
+    <head><title>JASC Palette (PAL) file format</title></head>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>JASC Palette (PAL) file format</h3>
+By Sander de Jong<br>
+http://lieronet.cjb.net<br>
+<br>
+There are two PAL file formats. The first one is the MicroSoft PAL file, used in PhotoShop and Paintshop Pro. LieroKit also supports them, but I don't know how these palettes work.
+The second one is the JASC PAL file, used by Paintshop Pro. This file works a lot easier, so both LieroKit and LieroM8 support them (LieroM8 not completely right now).<br>
+<br>
+This file works like this: The PAL file is a text file, so NO binary data.<br>
+The first line of data contains the text 'JASC-PAL', leave it this way.<br>
+The second line contains the text '0100', don't know what this means, just leave it like this.<br>
+The third line contains the text '256'. This is the number of colors in the palette, most likely 256 colors for use with Liero.<br>
+<br>
+After that, there are 256 lines of text, containing 3 numbers per line, with spaces between them.<br>
+These numbers are respectively the Red, Green and Blue values (the so-called RGB palette). For example, the color white would be '255 255 255' and black '0 0 0' (255 is the most bright, 0 the less bright)<br>
+<br>
+Keep in mind that Liero doesn't use 8-bit (256) palette values, but 6-bit (64)! This means you will have to devide the color by 4 if you want to store the value to Liero.Exe, and multiply by 4 to retrieve the colors in Liero.Exe !!!<br>
+</td></tr></table>
+</body>
+</html>

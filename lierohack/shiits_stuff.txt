@@ -1,0 +1,34 @@
+--------------------------------------
+Shiit
+
+I've been reading Tim Verweij's Liero Hacking Project, and I've come around two
+variables he hadn't identified yet. Well, I've identified them, but they're
+completely illogical! Why would Joossa do such a strange thing?
+Is he out of his mind?
+
+Where, what and what they do:
+They are both properties of what LieroKit calls "Map changes"
+variable 1: 0001C1F4h to 0001C1FCh
+variable 2: 0001C1FEh to 0001C206h
+
+Well, the first variable is the texture the map change will leave behind.
+The second is the amount of textures to use. Now, this would be logical if Liero
+had many textures, but there are only 3 useable! That's just plain wack! You can
+choose a texture from the "large" 16x16 sprites at the beginning of each bmp-ed
+graphics mod, but the only textures that ordinary Liero uses are the strange
+text sprites that say: "ddM" or "dTvM". Now, if we mirror these sprites,
+they say: "Maa" and "Muta" and "Wiek ka". (Not sure about the last one)
+Now these are probably Finnish words, so they're of no meaning to me. These
+sprites do seem to have meaning. The one labeled "Muta" looks like greenball
+dirt in-game. The one labeled "Maa" looks like background and the one that looks
+somewhat like "Wiek ka" looks like dirtball dirt. But still, it would be very
+illogical and weird to have 6 (there are 2 of each sprite) special textures, and
+put them among the other sprites and make them have mysterious text on them,
+right? Anybody have ANY idea what this means? And, if there's a way to add or
+modify these textures?
+--------------------------------------
+uzlaw
+
+Shiit you guessed right. those are finnish words. "maa" means earth,
+"muta" means mud, "wiek ka" doesn't mean anything but "hiekka" means sand.
+--------------------------------------

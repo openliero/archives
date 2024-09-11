@@ -1,0 +1,19 @@
+<html>
+<body bgcolor="#003366" text="#dddddd" link="#c0c0dd" alink="#c0c0dd" vlink="#c0c0dd">
+<table width="600" border="0"><tr><td>
+<h3>LieroKit Powerlevel (LEV) file format</h3>
+See also "Liero level (LEV) file format".<br>
+<br>
+Powerlevels are much like normal levels, but they include a new palette. The document layout is
+quite simple. Powerlevels are always 177178 bytes divided into 3 blocks:<br>
+<br>
+<ul>
+    <li>176400 bytes of level data like any normal Liero level.</li>
+    <li>The string "POWERLEVEL". You can use this to identify the file as a Powerlevel.</li>
+    <li>768 bytes of palette data.</li>
+</ul>
+The palette should be an '18-bit': 3 bytes for each color, representing the Red, Green and Blue values ranging from 0 to 63 (!).
+There are 256 colors and no white spaces in the palette, so there is 3*256=768 bytes of palette data.<br>
+</td></tr></table>
+</body>
+</html>
