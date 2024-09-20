@@ -1,0 +1,2513 @@
+THE OFFICIAL LIERO FAQ
+LieroGuide by: Durandal (Nat Allan : lieroguide.klow.org)
+The official LieroGuide website http://lieroguide.klow.org Version : 1.00
+
+LieroGuide logo done by Killer Worm (Gungans@prodigy.net)
+
+Contents
+1. What is LieroGuide?
+
+ 1.1 Copyright Information
+ 1.2 Terms and Conditions of reading LieroGuide
+ 1.3 Getting the latest version of LieroGuide
+ 1.4 Disclaimer
+
+
+2. What is Liero?
+
+ 2.1 What is Liero's specifications?
+ 2.2 Where can I get Liero?
+ 2.3 How do I install Liero??
+ 2.4 How do I un-install Liero?
+ 2.5 How do I play Liero (2 Player)?
+ 2.6 How do I play Liero (Vs CPU)?
+
+
+3. Liero's Options
+
+ 3.1 Game mode
+ 3.2 Lives/Time to loose/Flags to win
+ 3.3 Loading times
+ 3.4 Max bonuses
+ 3.5 Names of Bonuses
+ 3.6 Map
+ 3.7 Amount of blood
+ 3.8 Level
+ 3.9 Regenerate level
+ 3.10 Shadows
+ 3.11 Screen sync
+ 3.12 Load+Change
+ 3.13 Player 1 Options/Player2 Options
+  3.13.1 Name
+  3.13.2 Red/Green/Blue
+  3.13.3 Aim Up/Down - Move Left/Right - Jump - Change weapon - Fire
+  3.13.4 Controller
+ 3.14 Weapon options
+
+
+4. Liero weapons
+ 4.1 Weapon types
+  4.1.1 Projectile
+  4.1.2 Grenade
+  4.1.3 Defensive
+  4.1.4 Bouncy
+ 4.2 Weapon descriptions
+  4.2.1 Projectile
+   4.2.1.1 Bazooka
+   4.2.1.2 Blaster
+   4.2.1.3 Cannon
+   4.2.1.4 Chaingun
+   4.2.1.5 Dart
+   4.2.1.6 Doomsday
+   4.2.1.7 Flamer
+   4.2.1.8 Gauss gun
+   4.2.1.9 Handgun
+   4.2.1.10 Larpa
+   4.2.1.11 Laser
+   4.2.1.12 Minigun
+   4.2.1.13 Mini rockets
+   4.2.1.14 Missile
+   4.2.1.15 Rifle
+   4.2.1.16 Shotgun
+   4.2.1.17 Super shotgun
+   4.2.1.18 Uzi
+   4.2.1.19 Winchester
+  4.2.2 Grenade
+   4.2.2.1 Big nuke
+   4.2.2.2 Chiquita bomb
+   4.2.2.3 Cluster bomb
+   4.2.2.4 Crackler
+   4.2.2.5 Explosives
+   4.2.2.6 Grashopper
+   4.2.2.7 Grenade
+   4.2.2.8 Hellraider
+   4.2.2.9 Mini nuke
+   4.2.2.10 Napalm
+   4.2.2.11 Spikeballs
+  4.2.3 Defensive
+   4.2.3.1 Booby trap
+   4.2.3.2 Dirtball
+   4.2.3.3 Fan
+   4.2.3.4 Float mine
+   4.2.3.5 Greenball
+   4.2.3.6 Mine
+  4.2.4 Bouncy
+   4.2.4.1 Bouncy larpa
+   4.2.4.2 Bouncy mine
+   4.2.4.3 Rb rampage
+   4.2.4.4 Zimm
+
+5. Liero strategies
+ 5.1 Easy strategies
+  5.1.1 Digging
+  5.1.2 Ninja roping
+  5.1.3 Lay traps
+ 5.2 Medium strategies
+  5.2.1 Big nuke/Greenball
+ 5.3 Hard strategies
+  5.3.1 Dart/Fan combo
+ 5.4 Real life strategies
+  5.4.1 Silence is your friend
+  5.4.2 Shouting can also be your friend
+  5.4.3 Counter-acting Shouting strategy
+  5.4.4 Be unpredictable
+  5.4.5 The bezerker
+ 5.5 Tricks
+  5.5.1 Choose CPU's weapons
+  5.5.2 Dual CPU's
+  5.5.3 Real Splitscreen
+
+6. Liero utilities
+ 6.1 Liero blood increase
+ 6.2 LieroKit
+
+
+7. Liero Mods
+ 7.1 Full Mods
+ 7.2 Levels
+ 7.3 Powerlevels
+ 7.4 Weapon Mods
+ 7.5 Graphic Mods
+ 7.6 Sound Mods
+ 7.7 Font Mods
+ 7.8 Palette Mods
+
+
+8. Liero Clans
+ 8.1 Terror Sabbath
+ 8.2 The Disgruntled Postmen
+ 8.3 DeathZone
+
+
+9. Liero Websites/Forums
+ 9.1 Liero Websites
+  9.1.1 LieroNet
+  9.1.2 Liero Hellhole
+  9.1.3 LieroFest
+  9.1.4 LieroZone
+  9.1.5 The Tenchul Liero Archive
+ 9.2 Forums
+  9.2.1 LieroNet Forum
+   9.2.1.1 List of contacts on LieroNet Forum
+
+10. Liero 2 Information
+ 10.1 The official Liero 2
+ 10.2 RageSquads Liero Sequel
+ 10.3 L2
+
+
+11. Liero Bugs/troubleshooting
+ 11.1 Bugs
+  11.1.1 Level freezing when not enough dirt
+  11.1.2 Ninja rope doing weird things
+  11.1.3 Weapon jamming
+  11.1.4 Runtime errors
+  11.1.5 Out of screen
+
+12. NEX7+
+ 12.1 What is NEX7+
+ 12.2 Where can I get NEX7+
+ 12.3 Contact
+
+13. Other Guides/FAQ's
+ 13.1 Liero Handbook
+ 13.2 DeathZone clan's manual
+
+14. Other stuff
+
+15. Liero community history
+
+16. Interviews
+ 16.1 Tim Verweij's Interview
+ 16.2 Degauss' Interview
+ 16.3 Klaus' Interview
+ 16.4 UlvHockey's Interview
+ 16.5 Sanders's Interview
+ 16.6 Dom.O's Interview
+ 16.7 Gliptic's Interview
+
+17. Forum FAQ
+ 17.1 General use
+  17.1.1 Login
+  17.1.2 Posting
+  17.1.3 New therads
+  17.1.4 Avitars/Pictures
+  17.1.5 Swearing
+  17.1.6 Spamming
+  17.1.7 Moderators
+  17.1.8 Private messages
+ 17.2 Liero Forum dictionary
+
+18. Conclusion
+ 18.1 Thanks
+ 18.2 Contact
+ 18.3 Version history
+
+--------------------------------------------------------------------------------
+
+LieroGuide information
+
+1. What is LieroGuide?
+What is LieroGuide?
+LieroGuide is a Guide/FAQ to the game Liero, made by Joosa Riekkinen
+joosa@mbnet.fi. This is the OFFICIAL FAQ. Also at the time of this Guide being
+written Joosa was not communicating with the Liero community much. Almost all
+Liero related material was being ignored by Joosa. There was some speculation
+on the Lieronet forum that he had been hit by a bus on the way to work one
+morning, or had fallen victim to the SCREAM killer. Although when I email him,
+he replied quite happily. But he has got to be busy, so do NOT expect a reply
+if you do send him mail.
+
+LieroGuide is as complete as I could get it. From Basic info on Liero, to the
+Weapon Guide, to Advanced strategies, to Clan info and Utilities to download.
+Everything I could scrounge up on the game is in this Guide. If you see
+anything missing, or have just made/discovered something for Liero, visit the
+Contributing section.
+
+This is the TXT offline version of LieroGuide.  You can view an online HTML
+version at the official LieroGuide website (http://lieroguide.klow.org) and
+also you can download the offline HTML version.
+
+
+1.1 Copyright Information
+This document is FREE. This document is NOT to be sold at ALL. I will be very
+angry if it is. The purpose of this document is to spread the word of Liero as
+far as is possible and to give players of Liero information on the game. You
+have permission from the author to put it in a zip file with Liero, post it on
+your Website, distribute it, as long as:
+
+1. It is unchanged except colours . This means no nothing is to be changed
+within it, except for colours.
+2. You make NO money out of it. Period.
+3. It is the latest version of LieroGuide. Email the author to find out the
+latest version.
+4. In the case of LieroGuide being distributed with Liero/put on Websites, you
+must contact the author (in the Contact section), and state what you are doing
+with the guide and where the guide is available (if applicable).
+5. It is NOT to be stored on any physical medium. This guide must remain on
+computers, unless specific permission is given from the author of this guide.
+
+
+1.2 Terms and conditions of reading LieroGuide
+In reading this document you agree to the following terms:
+
+1. I will abide by the terms contained in section 1.1 Copyright Information
+2. I will learn from this guide and use the information to the good of all
+Lierokind
+3. I will use the technique's described herein to kick my friend's butt's
+4. I will E-mail the author if i know some cool moves/new
+programs/Mods/Websites/clans/information/bugs/anything that isn’t already here
+
+
+
+1.3 Getting then latest version of LieroGuide
+Any updated versions of LieroGuide is available at the Official LieroGuide
+site: http://lieroguide.klow.org.
+
+Also, all old versions of LieroGuide will be kept at the same website. At the
+moment this is the only site LieroGuide will be on. If you do like LieroGuide,
+and want it on your site, please put it on, the idea of it is to be widely
+available, just as long as you E-mail me and say where it is available at. (As
+stated in 1 What is LieroGuide? and 1.1 Copyright information)
+
+
+1.4 Disclaimer
+I take no responsibility for anything you do or think in relation to this
+guide. This guide may cause slight brain damage if read. Liero is a game, not
+reality. Don’t go out and throw Large Nukes in the main street of the town
+nearest you. Please. Its for your safety. Don’t try anything in this guide at
+home.
+
+--------------------------------------------------------------------------------
+
+Liero Information
+
+2. What is Liero?
+Liero is a popular DOS action/strategy game loosely based on the game Worms by
+Team17. In Liero, you are one worm pitched into battle with another worm. There
+is no surrender, mercy or other such insignificant details. This is a
+winner-take-all situation. You have 40 weapons to initially choose from, and
+you can carry 5 into battle, so you must choose wisely. Weapon descriptions are
+found in the Weapons section. To survive, you must be quick and decisive, and
+quick on the trigger finger. This game is unlike Worms by Team 17 in that there
+is no 'turns', it is full-on real-time battle. There are 4 modes of play to
+choose from: Kill'em all, Game of tag, Capture the flag, Simple Capture the
+flag. More on these modes of play in the Different modes of play section. There
+is also the ability to dig through dirt and use a ninja rope 'built into' your
+worm (you don’t need to have anything special). The Ninja rope is a great tool,
+if wielded properly. The Ninja rope can also latch onto your opponent, and drag
+him toward you. This is a good way to say hello, and make sure every pellet of
+your shotgun hits them. The game may not be up to todays standard (Voodoo 7,
+P4-1000, 128 MB RAM), this game can run on a 486! But it provides hours of
+entertainment if you have a friend, or if you like playing the CPU. There is a
+CPU available, but its likes to shoot weapons like a nuke into a wall so it
+bounces back and kills itself. Is still fun if you like moving target practice.
+
+
+2.1 What is Liero's specifications?
+Here are the Minimum and Recommended system requirements as stated in the
+ReadmeEng.txt file in the Liero ZIP file.
+
+Minimum:  386SX
+VGA video card + monitor
+560kB free conventional memory
+
+
+Recommended:  486 or better
+VGA video card + monitor
+560kB free conventional memory
+Sound Blaster or 100% compatible sound card
+760kB free XMS memory for sound effects
+
+
+
+2.2 Where can I get Liero?
+You can get Liero from these sites, and probably heaps more.
+
+Liero Hell hole
+LieroNet
+Wormhole
+Liero Fest
+Liero Extreme
+
+
+
+2.3 How do I install Liero?
+First, goto one of the sites above, and download the ZIP file. Next, unzip the
+file to a directory of your preference (You can get WinZIP from Here). That is
+Liero installed. No fuss, messy directories (until you get utilities and Mods)
+or registry additions.
+
+
+2.4 How do I un-install Liero?
+To uninstall Liero, simply delete the Liero directory. As simple as that. If
+you want to keep everything in the directory, but delete just Liero, simply
+delete the following files:
+
+Levedit.exe
+Liero.exe
+Liero.snd
+Liero.chr
+Names.dat
+File_id.diz
+Liero.txt
+LieroEng.txt
+
+2.5 How do I play Liero (2 player)?
+Quickstart
+Run Liero.exe. When the loading screen comes up press any key. You should be at
+the main menu. Press Enter to start a new game. Select different weapons by
+hilighting them and pressing a direction key. When your done highlight done and
+press The fire key for your player. You will now see the main game. The default
+controls are listed below.
+
+Controls       Player 1    Player 2
+--------       --------    --------
+Up             R           Up
+Down           F           Down
+Left           D           Left
+Right          G           Right
+Jump           Left alt    Right shift
+Shoot          Left Ctrl   Right Ctrl
+Change weapon  Left Shift  Right Alt
+
+To dig, hold down the direction key of the way you want to dig, and quickly tap
+the opposite directional key.
+To use the Ninja rope, hold down your weapon change key and press the jump
+button. Also, with the Ninja Rope, hold down the change button key and up or
+down to change the length of the rope. Press left or right to swing on the
+rope.(Thanks to Urlor for this)
+To change weapons, hold down the change weapon key and press left or right.
+This is about all the knowledge you need to play Liero 2 player.
+
+2.6 How do I play Liero (Vs CPU)
+Quickstart
+Run Liero.exe. Press a key at the loading screen. Go to the options menu
+selection and press Enter. Go down to the Player 1 options and press Enter. Go
+down to the Controller option and press Enter. It should say CPU. Press Esc
+twice and go to New game and press enter. Select different weapons by
+hilighting them and pressing a direction key. When your done highlight done and
+press The fire key for your player (The controls are listed above in the 2.5
+Playing Liero (2 Player) section. To dig, hold down the direction key of the
+way you want to dig, and quickly tap the opposite directional key.
+To use the Ninja rope, hold down your weapon change key and press the jump
+button. Also, with the Ninja Rope, hold down the change button key and up or
+down to change the length of the rope. Press left or right to swing on the
+rope.(Thanks to Urlor for this)
+To change weapons, hold down the change weapon key and press left or right.
+This is about all the knowledge you need to play Liero Vs CPU.
+
+2.7 How do I cheat in Liero?
+You don’t. There are no cheat codes. You don’t need to, either. Set loading
+times to 0 for unlimited ammo. Change your health to 10000% for (basically)
+invulnerability. The CPU is easy to beat anyway. And if you want more, just
+download some editors and edit the game. Its highly editable.
+
+--------------------------------------------------------------------------------
+
+Options
+3. Liero's Options
+Here is a list of the options you can change in Liero and their effect on the
+game.
+
+3.1 Game mode
+You can choose between 4 game modes. These include
+
+Kill'em all  Basic 1-on-1 deathmatch. You can change how many frags (kills) to
+win (see the section on Lives/Time to loose/Flags to win)
+
+
+Game of tag  The one who gets killed first becomes "it". Both players have in
+addition to the kills and lives meters a timer which shows the time spent as
+"it". The player whose time is running is "it". Everytime you die, you become
+"it", so try to stay alive... When the numbers are green you're winning (you've
+been less time as "it"); when they're red you're losing.
+
+
+Capture the flag  The one who kills the other player first may begin collecting
+flags. As "the collector" you have to take as many flags as you need to win
+(can be changed) to your "home base", a little cabin painted with the colour of
+your worm located somewhere on the level. When the collector gets killed the
+other worm becomes the new collector. If you're carrying a flag when you die,
+the flag drops off.
+
+
+Simple Capture the flag  Same as above, but there is no 'collector'. Both
+players may begin capturing flags and returning them to their home base.
+
+
+3.2 Lives/Time to loose/Flags to win
+This section changes with different gameplays
+Kill'em all
+In Kill'em all, this section is how many lives you have. When you run out, you
+loose.
+Game of tag
+In a Game of tag, this section is the Time to loose. When your clock reaches
+this time, you loose and the other person wins.
+Capture the flag/Simple Capture the flag
+In Capture the flag/Simple Capture the flag, when somebody captures this number
+of flags, they win.
+
+3.3 Loading times
+This is how fast your weapons reload, as a percentage out of 100%. Loading
+times of 20% or less are very fast games, and loading times of 0% are complete
+mayhem. (Especially with Nukes or Chiquita's)
+
+3.4 Max bonuses
+As far as I can gather, this option determines how many crates can appear on
+the battlefield at one time. However, it does not appear to function.
+
+3.5 Names of Bonuses
+When on, all the bonuses that appear during gameplay will have a name above
+them saying which weapon they contain. Note that booby crates will still
+appear, and will have the name of a weapon above them, so they are
+indistinguishable from normal crates.
+
+3.6 Map
+When on, a small minimap will appear underneath gameplay screens, showing a
+small display of the battlefield.
+
+3.7 Amount of blood
+This is the amount of blood liero produces in percent. You can have up to 500%
+blood, and there is a utility available for download (see the Utilities
+section) to have up to 32750%. However, having your blood setting at 32750%
+slows down the game a lot when hit with a powerful weapon.
+
+3.8 Level
+This is the level that is currently selected. Pressing enter on this will take
+you to a menu of levels available. The level [Random] is just a random level
+Liero generates every time you play on it. You can make your own level by using
+the level editor provided with Liero or get some leveleditors in the
+Leveleditors section, or just download levels (included in the levels section)
+
+3.9 Regenerate level
+If you are playing on a random level with this on, Liero will regenerate the
+random level each time you play. Otherwise, it wont.
+
+3.10 Shadows
+If the shadows are on, during gameplay most things will cast a shadow on the
+background. Depending on the colour of the land, the shade on the background
+will be different.
+
+3.11 Screen sync
+From what I can tell, if screen sync is on, it slows the frames to a normal
+speed (for fast computers) on slow computers it wont make much of a difference.
+
+3.12 Load+Change
+If Load+change is on, you will be able to switch weapons while one is loading.
+If load+change is off, you will have to wait until the weapon has loaded,
+leaving you unarmed in the interim. NOTE: A weapon will only reload if it is
+selected.
+
+3.13 Player 1 Options/Player2 Options
+This takes you to a menu where you can change the player options. They are as
+follows
+
+3.13.1 Name
+This is your name. Simple. If you dont type in a name, a random one is
+generated from the names.dat file. If you press Ctrl and a letter you can get
+weird letters.
+
+3.13.2 Red/Green/Blue
+These sliding bars show you how much Red/Green/Blue are being used to determine
+your worm's colour. The more of a colour, the stronger that colour is in the
+overall colour. Makes sense? I hope so. Its just like mixing paint in art. You
+did do art, right? The current colour that will be used for your worm is
+displayed in the bars, and the worm picture left of the options
+
+3.13.3 Aim Up/Down - Move Left/Right - Jump - Change weapon - Fire
+Determines which keys are used in gameplay for this option. Move to the option
+you want to change, and press Enter. Liero will wait for you to press the key
+you want to use in the game for that option.
+
+3.13.4 Controller
+Determines wether this worm is controlled by a human at the keyboard, or the
+CPU. The CPU isn’t very smart. OK, it just likes to kill itself. Good for
+moving target practice and Sniping practice. The computer is controlled by
+random numbers, so its behavior is nearly all totally random. The only thing it
+does constantly is walk toward you (until it reaches a certain position) is
+walk toward you and ignore powerup's
+
+3.14 Weapon options
+This takes you to another sub-menu, displaying all the weapons in the game. If
+a weapon's availability is menu, you can access it through the menu, and crates
+dropped throughout the game. If it is set at bonus, that weapon will only
+appear in crates dropped in the game. If it is set at banned, that weapon will
+not come into play. Also if you ban all the weapons, a note will pop up and
+tell you that you have to have at least one available.
+
+
+--------------------------------------------------------------------------------
+
+Weapons
+4. Liero Weapons
+There are 40 different weapons in Liero, from the shotgun to the gauss gun,
+grenade to large nuke. This page is to give you a good idea of the weapons
+before you dive head-first into play with a large nuke and a itchy
+trigger-finger.
+4.1 Weapon types
+All weapons fall into 4 basic categories. Projectile, Grenade, Defensive and
+Bouncy
+4.1.1 Projectile
+Projectile weapons, the basis of just about all war involving weapons. Weapons
+of this type do their damage by firing one, or a number of projectiles in the
+general direction you are aiming. They then cause damage by exploding, or just
+damage by hitting the worm.
+Some examples of this type are: Shotgun, Gauss gun, Rifle.
+Total weapons in this category: 19
+4.1.2 Grenade
+Grenade type weapons are weapons that involve an object (usually round) being
+thrown in the direction you are aiming. They usually have a fuse, so they
+(sometimes) have time to settle before exploding. They usually travel in an
+arc, so they are useful for 'lobbing' over an object (to get at a worm hiding
+behind a rock, for example). If throw down a tunnel straight, can travel a fair
+distance before exploding (depending on the angle of the tunnel). If you throw
+one of these down a tunnel, not quite paraell to it, they can bounce of each
+side of the tunnel and stop close to your worm. It pays to line it up properly,
+especially when your playing with dangerous ones.
+Some examples are: Chiquita bomb, (Big/Mini) Nuke, Grenade
+Total weapons in this category: 11
+4.1.3 Defensive
+Defensive weapons dont have a particular group. They can range from the fan,
+which blows things away from your worm, to mines which are thrown like a
+grenade, but blend into the terrain.
+Some examples of this type are: Fan, Mine, Booby Trap
+Total weapons in this category: 6
+4.1.4 Bouncy
+Bouncy weapons are weapons that dont explode on contact with ground, they
+bounce. These weapons can be great to get hiding worms, but are also great at
+getting yourself killed if you dont move, and then they still might. These
+weapons require great skill to use effectively.
+Some examples are: Zimm, Bouncy mine, Rb Rampage
+Total weapons in this category: 4
+4.2 Weapon descriptions
+Here is the big bit. Descriptions of weapons, properties, pros/cons, uses. I am
+not going to rate them, because the rating would be my own personal opinion,
+which dosnt count much in this guide. You decide on your favorite. Weapons will
+be categorized in the above categories, and in alphabetical order within their
+own category.
+4.2.1 Projectile weapons
+Here are the descriptions on all the projectile weapons.
+4.2.1.1 Bazooka
+Description
+The bazooka is a medium-speed missile that is unaffected by gravity. It
+explodes on contact
+Properties
+Hit damage : 12
+Recoil : 15
+Gravity : No
+Shots per load : 3
+Loading times : Average
+Tips/Tricks
+Dont try shooting somebody close range, or somebody falling (unless you are
+good at leading shots).
+Pros
+Explosive, good speed
+Cons
+Hard to hit moving target
+4.2.1.2 Blaster
+Description
+The Blaster is a slow-moving projectile that fires in an arc. Once it hits the
+ground, it explodes.
+Properties
+Hit damage : None, only on Explosion
+Recoil :30
+Gravity : Yes
+Shots per load : 3
+Loading times : 320
+Tips/Tricks
+Use the Blaster to arc over rocks where the enemy is hiding
+Pros
+Can get hiding worms, etc.
+Cons
+Due to slow movement, enemy has time to get out of the way.
+4.2.1.3 Cannon
+Description
+The cannon fires 6 medium-speed projectiles in quick succession. Also good for
+arcing over rocks
+Properties
+Hit damage : None, only on explosion
+Recoil : 40
+Gravity : Yes
+Shots per load :6
+Loading times : Average
+Tips/Tricks
+Pin an enemy against a wall and watch them die, and can be used to fly by
+jumping and shooting down
+Use in an open level to bombard the enemy by firing heaps into the air
+Pros
+Good for scare tactics, block a exit to a cavern, can be used to fly
+Cons
+Low damage per shot
+4.2.1.4 Chaingun
+Description
+The Chaingun is a Gun that fires bullets at a fairly fast rate. Good use
+anywhere.
+Properties
+Hit damage : 3
+Recoil : 6
+Gravity : Yes
+Shots per load : 50
+Loading times : Average
+Tips/Tricks
+Can be used to dig tunnels
+Pros
+Average loading time, good rate of fire
+Cons
+If enemy moves around a lot, hard to keep up with them.
+4.2.1.5 Dart
+Description
+Overlooked weapon, mainly because of its small damage and average shots-per
+load, although it had a quicker reload time than average.
+Properties
+Hit damage : 5
+Recoil : 0
+Gravity : Yes
+Shots per load : 5
+Loading times : Quick
+Tips/Tricks
+Used in conjunction with the fan, you can fire a dart, and once the dart has
+passed through the enemy, use the fan to blow them back onto it, causing
+tremendous damage from 1 dart. Not very easy to do, though.
+Pros
+Quick reload
+Cons
+Low damage
+4.2.1.6 Doomsday
+Description
+The doomsday fires two rockets with a small amount of spread. Has a clip of 8
+and long reload time
+Properties
+Hit damage : None, only explosion damage
+Recoil : 15
+Gravity : No
+Shots per load : 8
+Loading times : Long
+Tips/Tricks
+Could be used for scare tactics and digging tunnels
+Pros
+Fires two rockets, good clip and fairly fast rate of fire
+Cons
+Long loading time
+4.2.1.7 Flamer
+Description
+A weapon that spits out flame. Not very effective on the enemy worm, but eats
+through land.
+Properties
+Hit damage : 1
+Recoil : 0
+Gravity : Yes, inversed
+Shots per load : 100
+Loading times : Average
+Tips/Tricks
+Use to eat through land below enemy, or to drop his house (in Ctf games) down
+Pros
+Good if you want to dig wide tunnels, finish off weak enemy.
+Cons
+Not good if you want to kill enemy.
+4.2.1.8 Gauss gun
+Description
+The gauss gun fires 5 explosive projectiles at extreme velocity. If you are
+accurate, can pick people off across the map.
+Properties
+Hit damage : None, only explosion damage
+Recoil : 90
+Gravity : Yes
+Shots per load : 1
+Loading times : Average
+Tips/Tricks
+Scare opponent when they think they are safe on the other side of the map.
+Remember that gravity does still apply, just not very much at the speed it
+fires its projectiles.
+Pros
+Extreme velocity of projectiles, good for sniping if you have good aim
+Cons
+No laser sight
+4.2.1.9 Handgun
+Description
+The handgun shoots slow bullets at a slow rate. Has a large clip and has an
+quick loading time
+Properties
+Hit damage : 6
+Recoil : 20
+Gravity : Yes
+Shots per load : 15
+Loading times : Average
+Tips/Tricks
+Use laser sight to line up other, more powerful weapons, like Gauss gun
+Pros
+Laser sight
+Cons
+Slow rate of fire
+4.2.1.10 Larpa
+Description
+The larpa is a missile-type projectile that rains shrapnel down until it hits a
+wall
+Properties
+Hit damage : None, only shrapnel and Explosion
+Recoil : 20
+Gravity : Yes
+Shots per load : 5
+Loading times : Average
+Tips/Tricks
+Hit worms hiding behind rocks, etc.
+Pros
+Rains shrapnel
+Cons
+Shrapnel not very damaging
+4.2.1.11 Laser
+Description
+The laser fires a beam of red light where you aim. cuts through dirt like a
+knife, and if held on the enemy, pretty damaging
+Properties
+Hit damage : 1
+Recoil : 0
+Gravity : n
+Shots per load : 80
+Loading times : Long
+Tips/Tricks
+Line up other, more powerful weapons, like Gauss gun
+Pros
+Cuts through dirt
+Cons
+Hard to keep on enemy that is moving, swinging, etc.
+4.2.1.12 Minigun
+Description
+The Minigun fires bullets at an extreme rate of fire. Very deadly
+Properties
+Hit damage : 2
+Recoil : 6
+Gravity : Yes
+Shots per load : 70
+Loading times : Long
+Tips/Tricks
+Pin enemy against wall and watch them die. Can be used as a jetpack. Just fire
+at the ground and you will be propelled up and away. Good to get away from big
+nukes.
+Pros
+High rate of fire, powerful if kept on target
+Cons
+High loading time
+4.2.1.13 Mini rockets
+Description
+Fires fast-moving rockets at a fast rate of fire.
+Properties
+Hit damage : 2
+Recoil : 5
+Gravity : No
+Shots per load : 10
+Loading times : Long
+Tips/Tricks
+Use to cover exits to a room.
+Pros
+Good for scare tactics. Hard to avoid
+Cons
+Long reload time, not much damage.
+4.2.1.14 Missile
+Description
+The missile is a powerful tool if used correctly. Once fired, the missile is
+fully controllable by the direction keys.
+Properties
+Hit damage : 12
+Recoil : 15
+Gravity : No
+Shots per load : 1
+Loading times : Long
+Tips/Tricks
+Use to get worms hiding behids rocks, fire down tunnels, etc.
+Pros
+Controllable, average damage
+Cons
+Your worm is vulnerable while using, hard to control down windy or cramped
+spaces
+4.2.1.15 Rifle
+Description
+The rifle is usually the snipers choice. It fires a very fast-moving bullet and
+it has a laser sight.
+Properties
+Hit damage : 34
+Recoil : 70
+Gravity : Yes
+Shots per load : 1
+Loading times : Average
+Tips/Tricks
+Sniper from high points. Shoot just before the enemy enters the sights
+Pros
+Laser, Average loading time, perfect sniper weapon
+Cons
+Enemy usually takes cover before you have another shot, enemy can see laser and
+take cover.
+4.2.1.16 Shotgun
+Description
+The shogun fires multiple pellets in a spread. Best at close range
+Properties
+Hit damage : 1
+Recoil : 55
+Gravity : Yes
+Shots per load : 5
+Loading times : Quick
+Tips/Tricks
+Use the ninja rope to latch onto enemy, and then shoot enemy point-blank for
+full effect
+Pros
+Powerful at close range
+Cons
+Spread makes shotgun weak at close range unless your enemy is over-cautious
+4.2.1.17 Super shotgun
+Description
+The super-shotgun is the big brother of the shotgun. More pellets, more spread,
+less shots, long reload time
+Properties
+Hit damage : 1
+Recoil : 200
+Gravity : Yes
+Shots per load : 2
+Loading times : Long
+Tips/Tricks
+Same as shotgun. Use the ninja rope to latch on to enemy, unload point-blank.
+Very dangerous.
+Pros
+More damage in 1 hit
+Cons
+Long reload time, more spread
+4.2.1.18 Uzi
+Description
+The uzi is a rapid-fire gun that shoots 15 bullets in less than a second
+Properties
+Hit damage : 2
+Recoil : 2
+Gravity : Yes
+Shots per load : 15
+Loading times : Quick
+Tips/Tricks
+Wait till enemy is close, and unload in his face
+Pros
+Fairly accurate, very quick to fire
+Cons
+Only 15 bullets
+4.2.1.19 Winchester
+Description
+Basically a rifle without laser sight but a 9 shot magazine.
+Properties
+Hit damage : 12
+Recoil : 35
+Gravity : Yes
+Shots per load : 9
+Loading times : Long
+Tips/Tricks
+Use a laser sight of another weapon to line up shot.
+Pros
+Powerful
+Cons
+No laser sight, long reload time
+4.2.2 Grenade weapons
+Here are the descriptions on all the grenade weapons.
+4.2.2.1 Big nuke
+Description
+A Grenade that, when it explodes, shoots bouncy green things that explode after
+a short time.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Very long
+Tips/Tricks
+Great terror weapon. Just seeing the words 'Big Nuke' above your worm can make
+people flee. Not as good as it sounds though. Better in confined spaces
+Pros
+Makes a nice hole, Great terror weapon
+Cons
+Long loading time
+4.2.2.2 Chiquita bomb
+Description
+A grenade that shoots banana projectiles when it explodes
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Long
+Tips/Tricks
+Throw at enemy. Better in confined spaces.
+Pros
+Hard to miss in a open area
+Cons
+Long loading time
+4.2.2.3 Cluster bomb
+Description
+A grenade that, when exploded, fires projectiles that explode on contact
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Long
+Tips/Tricks
+Throw where enemy is going to be when it explodes
+Pros
+Fires clusters
+Cons
+Long loading time
+4.2.2.4 Crackler
+Description
+A grenade that shoots shrapnel out until the grenade explodes.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Long
+Tips/Tricks
+Use to dig tunnels straight down
+Pros
+Shoots heaps of shrapnel
+Cons
+Long loading time
+4.2.2.5 Explosives
+Description
+Three grenades that exploded quickly
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Quick
+Tips/Tricks
+Throw behind a rock to flush out enemy worm
+Pros
+Quick load time
+Cons
+Can bounce back and hit you
+4.2.2.6 Grasshopper
+Description
+A grenade-like projectile that, when it explodes, shoots out another of itself,
+then explodes, shoots out another of itself, et, 7 times.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Average
+Tips/Tricks
+Block off an entrance to a tunnel
+Pros
+Lasts a while
+Cons
+Little damage
+4.2.2.7 Grenade
+Description
+This grenade, when it explodes, leaves behind shrapnel to damage the enemy
+worm.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Short
+Tips/Tricks
+Make a clearing at the end of a tunnel
+Pros
+Short loading time, Average damage
+Cons
+Easy to avoid in open areas
+4.2.2.8 Hellraider
+Description
+A grenade-style weapon that leaves a trail of flame and, when explodes, shoots
+cannon projectiles.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Long
+Tips/Tricks
+Great terror weapon. Get enemy caught in the flames
+Pros
+High damage in the flames
+Cons
+Long loading time
+4.2.2.9 Mini nuke
+Description
+A smaller nuke with two shots per load.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 2
+Loading times : Long
+Tips/Tricks
+Fire one each side of the enemy worm
+Pros
+Good damage, two shots per load
+Cons
+Long loading time
+4.2.2.10 Napalm
+Description
+A grenade-like projectile that explodes on contact and shoots flame in all
+directions.
+Properties
+Hit damage : None
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Short
+Tips/Tricks
+Catch enemy in flame for high damage
+Pros
+High damage if done right, Short loading time
+Cons
+Dangerous if shot at a wall, can be seen coming
+4.2.2.10 Spikeballs
+Description
+8 Balls with spikes on them, fired in an arc like a grenade that explode after
+a considerable time. Hit damage is average, but if all the balls hit the enemy,
+the enemy will be lucky to crawl away.
+Properties
+Hit damage : 9
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Med
+Tips/Tricks
+Wait until point-blank range to ensure the enemy is hit by all the balls, or
+use to booby-trap a tunnel. If you are up against a wall and fire, you can fire
+the spikeballs in the land. Then use a shotgun or a rifle to dislodge them when
+the enemy is close to the spikeballs
+Pros
+High damage if all the spikeballs hit
+Cons
+Easy to aviod if at any range except point-blank
+4.2.3 Defensive weapons
+Here are the descriptions on all the Defensive weapons.
+4.2.3.1 Booby trap
+Description
+Drops a health crate or a weapon crate. When somebody touches it, BOOM.
+Properties
+Hit damage : 5
+Recoil : None
+Gravity : Yes
+Shots per load : 1
+Loading times : Ave
+Tips/Tricks
+Dont drop to many of these in one area, otherwise it will look suspicious
+Pros
+Disguised explosive
+Cons
+Enemy dosnt always pick up crates
+4.2.3.2 Dirtball
+Description
+The Dirtball is a odd weapon, which fires a ball that explodes into clumps of
+dirt after a few seconds
+Properties
+Hit damage : None
+Recoil : 0
+Gravity : Yes
+Shots per load : 5
+Loading times : Quick
+Tips/Tricks
+Good way to block off tunnels, prepare for an oncoming attack, or hide from a
+nuke
+Pros
+Creates dirt
+Cons
+No damage as such
+4.2.3.3 Fan
+Description
+The fan is a weapon that blows anything that comes into contact with it away.
+Note that it wont blow away something traveling at extreme velocities (e.g..
+Gauss Gun)
+Properties
+Hit damage : None
+Recoil : 2
+Gravity : No
+Shots per load : 150
+Loading times : Quick
+Tips/Tricks
+Fire a dart, and when it passes through the worm, blow them back into it with
+the fan. blow spikeballs, shotgun pellets, anything back in their face.
+WARNING: Do not try blowing a gauss gun projectile back at them, unless you
+want to be smeared all over a wall.
+Pros
+Blows stuff away
+Cons
+Dosnt work for projectiles that travel at extreme velocities.
+4.2.3.4 Float mine
+Description
+A mine that floats! 2 shots per load
+Properties
+Hit damage : None, explosion
+Recoil : 0
+Gravity : No
+Shots per load : 2
+Loading times : Average
+Tips/Tricks
+Mine off entrances/exits to tunnels
+Pros
+Floats
+Cons
+Not very damaging.
+4.2.3.5 Greenball
+Description
+A gun that shoots green projectiles that exploded into blobs of green stuff
+that you can dig through.
+Properties
+Hit damage : 0
+Recoil : 10
+Gravity : Yes
+Shots per load : 40
+Loading times : Quick
+Tips/Tricks
+Shoot a nuke near the person then greenball them in. Since the nuke stuff cant
+go anywhere, they all stay near the enemy worm and explode on him.
+Pros
+Rapid fire, Makes green stuff
+Cons
+No damage
+4.2.3.6 Mine
+Description
+A explosive mine that blends into the landscape.
+Properties
+Hit damage : 12
+Recoil : 0
+Gravity : Yes
+Shots per load : 1
+Loading times : Quick
+Tips/Tricks
+Mine entrances/exits to a tunnel, force them into that tunnel with other
+weapons. Drop one when running from enemy.
+Pros
+Disguised explosive
+Cons
+Hard to know where enemy is going
+
+4.2.3 Bouncy weapons
+Here are the descriptions on all the Bouncy weapons.
+4.2.4.1 Bouncy Larpa
+Description
+A larpa that bounces!
+Properties
+Hit damage : 0
+Recoil : 12
+Gravity : Yes
+Shots per load : 4
+Loading times : Average
+Tips/Tricks
+Bounce a Bouncy larps to where the enemy is hiding
+Pros
+Bouncy, drops shrapnel
+Cons
+Tends to come back to where it started, so dont be there
+4.2.4.2 Bouncy mine
+Description
+A explosive mine that bounces all over the place
+Properties
+Hit damage : 18
+Recoil : 0
+Gravity : Yes
+Shots per load : 1
+Loading times : Quick
+Tips/Tricks
+Shoot all over the place, but be sure you can get away from them
+Pros
+Bouncy, explosive
+Cons
+Tends to come back to roughly where it started, so dont be there.
+
+4.2.4.3 RB rampage
+Description
+A gun that shoots bouncy bullets, kind of like an uzi but with bouncy bullets
+that explode on contact with any worm.
+Properties
+Hit damage : 0
+Recoil : 4
+Gravity : Yes
+Shots per load : 40
+Loading times : 10
+Tips/Tricks
+Shoot all over the place, but be sure you can get away from them. Good for
+getting behind rock where enemy is hiding
+Pros
+Bouncy
+Cons
+Tends to come back to roughly where it started, so dont be there.
+
+4.2.4.4 Zimm
+Description
+A gun that shoots a dangerous bouncy white projectile
+Properties
+Hit damage : 0
+Recoil : 4
+Gravity : No
+Shots per load : 40
+Loading times : 10
+Tips/Tricks
+If you are good, bouncy off walls to where enemy is hiding
+Pros
+Bouncy
+Cons
+Very often comes back to where it started, so dont be there.
+
+--------------------------------------------------------------------------------
+
+Strategies
+5. Liero Strategies
+Here are the strategies I have so far for the game Liero. There split into
+three categories - Easy, Medium and Hard
+5.1 Easy strategies
+5.1.1 Digging
+Digging is one of the main aspects of the game. Some of you may not know how to
+dig, so heres how. To dig, Hold down the key corresponding to the way you want
+to dig, and rapidly press and release the opposite directional key. It is
+important to be able to dig rapidly and easily.
+5.1.2 Ninja roping
+Ninja roping is also one of the most important things to learn in Liero. To use
+the ninja rope, hold down the change weapon key and the jump key at the same
+time. This will fire the ninja rope in the direction you are aiming. Get used
+to ninja roping and practice it. It is a key element in the game.
+5.1.3 Lay traps
+Lay traps where you can, then hope your opponent hits them. Lay mines down a
+tunnel, but remember where you put them. A good trap is to 'plant' bouncy mines
+in the dirt by walking up right to the wall you want to plant them in and fire.
+The bouncy mine will be stuck in the dirt, bouncing back and forth with nowhere
+to go. then put a mine on top of this, not in the dirt. When the enemy comes by
+and hits the mine, it will blow the bouncy mines out of the ground and they
+will bounce all over the place. In a confined space, most of them will ht the
+enemy while he is trying to flee. This can be done with all kinds of weapons.
+5.2 Medium strategies
+5.2.1 Big nuke/greenball combo
+If the enemy is in the corner, fire a nuke so it is right next to them and
+greenball them in the corner. The nuke will explode and all the nuke stuff will
+be stuck next to the enemy. Then when the nuke stuff explodes, it will all hit
+the enemy.
+5.3 Hard strategies
+5.3.1 Dart/Fan
+Shoot the dart and when it passes through the enemy worm, blow them back into
+the dart with the fan. It will do more damage each time you do.
+5.4 Real-life tips
+This is a section I dont think that has been incorporated into a game FAQ
+before. Just because Liero isnt real dosent mean there are no real-life aspects
+of strategies. Most of these tactics can be applied to all games and real-life
+too.
+5.4.1 Silence is your friend
+I had a friend who, when he went to throw a chiquita right on my head, felt
+compulsed to shout "CHIQUITA" just before he did. Even now when I mention
+Liero, he shouts "CHIQUITA" for no apparent reason. But the upshot was, I was
+out of there before he pushed the fire button. Moral of this story. DO NOT say
+what you are about to do. Any good player will get their butt (If they value
+it) out of the area and probably even spray some fire back at you while they
+flee. In real life, do assassins say to their intended victims "I’m going to
+kill you with a sniper rifle tomorrow, at 4:56 PM sharp"? NO. So in real-life
+and in a battle of some kind, dont say a word. They may be able to know what
+you are thinking, and fighting against a silent person can be disconcerting. Of
+course, this can be used to trap even the expert player (unless their
+paranoid), as described in the next section.
+5.4.2 Shouting can also be your friend
+Now, if my friend from the topic above was half-smart (yeah, right!), he would
+do the following. plant some mines or a chiquita bomb near an entrance, get to
+the other side and shout "CHIQUITA". I would have then done the smart thing -
+Get the hell outta there. I would have then ran straight into the trap he
+planted and possibly died. This tactic is sneaky and on a smart player could
+only be used once. After falling for a trap like that, most people would just
+shoot at the enemy rather than flee.
+5.4.3 Conter-acting Shouting strategy
+How do you stop falling for the trap above? Either be paranoid and second guess
+their every move, or just ignore everything they say completely. The first
+tactic is good in that it can counter-act most strategies, the downside is that
+you can also fall for traps easier. The second is good as in that it will
+counter-act this one, the downside is that you wont have that info on what
+their doing.
+5.4.4 Be unpredictable
+Another all round tip. Be unpredictable. Trying to hit an erratic target is
+harder than a predictable one. So dont always take the same path. Dont always
+get the health. Dont always use the ninja rope. Be erratic as possible and be
+spontaneous.
+5.4.5 The beserker
+If all else fails and you dont care much about fair play, honor or glory, do
+the bezerker. Push your enemy out of their chair and line up your shot. Of
+course they wont play you again. Or if you really are angry, Quit the game. Or
+rip the plug out of the wall. Smash the monitor if you have to. Please note
+that if you do this, you will be dishonorable, scum, too wound-up about a
+little game, and up for the bill. If you do any of these tactics I dont want to
+know you (Even knocking somebody out of their chair is bad)
+5.5 Tricks
+Tricks you can to with Liero. Play dead... Good worm...
+5.5.1 Choose CPU's weapons for it
+To choose the CPU's weapons for it, Start a two player game. Choose the second
+players weapons as what you want the CPU's to be. When in the game, change the
+second player to CPU. You can make the CPU a deadly opponent with a few
+dangerous weapons...
+5.5.2 Dual CPU
+To make two CPU's fight to the death, simply set both players to CPU. Even use
+the trick about to give them certain weapons. Mabey even have bets on which one
+will win.
+5.5.3 Real Splitscreen
+Put a piece of cardboard on the splitscreen line and tape it onto the monitor.
+Now you can sneak up behind people, etc.
+
+
+5.5.4 Split vision
+Keep one eye on your screen and one on the opponents. That way you can predict
+the 3-4 next moves your enemy will/might make. Not very honest, but it's
+
+--------------------------------------------------------------------------------
+
+Utilities
+6. Liero utilities
+There are a few Utilities that are available for Liero. Fortunately it is a
+highly editable game and most of the editors are fairly user-friendly
+6.1 Liero Blood Increaser
+Need more blood for Liero? Then this is definitely for you. With this utility
+you can increase the blood level in Liero up to 32750%. A hit with a tiny
+weapon will now make you worm bleed heaps. Only problem with having blood at
+32570% is that when hit with a powerful weapon like a gauss gun my P II-300
+slows down bigtime while it tries to display all the particles of blood. Try to
+keep it not too high or you will experience a bit of slowdown.
+
+My rating: [* * * * *] - 5/5
+Made by: Johan Otterud
+Email : johan.otterud@telia.com
+Download : http://hem.passagen.se/otterud/wormhole/myeditors.html
+6.2 LieroKit
+Practically every Liero editor wrapped up into one. Weapon editor, object
+editors, CPU editor, Mods activator, etc. Make your own weapon, change that
+stupid CPU, make new objects, change gravity, and if you cant be bothered, just
+download some Mods of the net and activate them in LieroKit.
+
+My rating: [* * * * *] - 5/5
+Made by: Erik Lindroos
+Email : webmaster@gliptic.com
+Download : http://liero.gamershell.com/Files/Lierokit16B2.zip
+
+
+--------------------------------------------------------------------------------
+
+Mods
+
+Unfortunately, there is nothing in the section yet, for this version. If you
+have something, send it in.
+
+7. Liero Mods
+
+7.1 Full Mods
+This is the section for Liero full Mods. What’s a full mod? A full mods when
+somebody edits just about everything they can to provide a totally different
+game.
+
+7.2 Levels
+This is where The good Liero levels go. There will also be a section for the
+competition winners (There is a mapping competition at the Liero forum).
+
+7.3 Powerlevels
+Powerlevels are specially-built levels that include a new palette for Liero, so
+all the colours can be changed. So we can have blue rocks, weird backgrounds,
+etc.
+
+7.4 Weapon mods
+This is where all the weapon mods go. Weapon mods are where a weapon is
+changed.
+
+7.5 Graphics mods
+Graphics mods are new graphics for Liero (e.g. new rocks, worms, weapon
+explosions etc.)
+
+7.6 Sound mods
+Sound mods are new sounds for Liero.
+
+7.7 Font Mods
+Font mods are new fonts for Liero.
+
+7.8 Palette Mods
+
+--------------------------------------------------------------------------------
+
+Clans
+8. Liero clans
+Here is a description and webpage for all the clans avaliable to Liero. Ive
+contacted all the authors of the clans to get their section how theyd like it.
+8.1 Terror Sabbath
+Well, Terror Sabbath. One of the first clans I heard of, and the first to get
+in contact with. Definatly worth a look. A pretty large clan with nice web-site
+History
+Very interesting part of the clan. This is just a more compact version I have
+written based on the full story (which can be found on the Terror Sabbath
+web-site)
+
+Once upon a time, err ok. A little while ago (well, a long time) a guy(Johan)
+asked his cousin over to stay for a while. After a bit of mucking round on the
+net they decided to try out this game, Liero. What the heck is that?, Johan
+thought. So they downloaded it and played it a bit and discovered it was quite
+addictive. He then found out about the level editor and found it ok for his
+needs. They then searched for more Liero on the web and found this old clan
+called After Ski. Then the found a level called 'The base', and the supposed
+announcment of Liero 2. It wasnt real, of course, but it got them thinking...
+of making their own Liero Clan? His cousin was sceptical but never-the-less
+Johan had still written a web-site about Liero. Not alot of activity happend.
+Not a lot at all. Then one person joined... Then another. Then 2, then 3,
+then.... well, you know what happend next. Next thing on the agenda was to...
+get important people to join. Sander de Jong, yep, he joined. Problem solved.
+The clan kept building and building...
+What it is today
+A big clan. No kidding. Nice clean web-page, nice layout. Big site with plenty
+of info, downloads, etc.
+What it is tommorow
+A bigger clan. Ulvhockey's vision for the future is a Liero 2 with internet
+play. Basically then Terror Sabbath would lunge headfirst into battle with
+other clans. He would 'split' the clan into squads who would operate
+independantly, taking orders from the clan leader. The squad would be lead by
+the Squadleader, than working together as a group, knowing each other's
+tactics/strategies. Then Terror Sabbath would slowly take over the world! (We
+all knew he was really going for world domination all along)
+
+
+Clan projects
+1. T-Shirts : Halted due to cost involved
+2. Liero Navigator : Top-Secret never been done before project. Halted for no
+reason stated
+3. Skins : Completed
+4. Liero 2 preparations : Getting started
+
+Website : http://terrorsabbath.cjb.net
+Contact : Ulvhockey@hotmail.com or terrorsabbath@hotmail.com
+8.2 The Disgruntled Postmen
+The disgruntled postmen is a small Liero 2/NEX7+ clan, with only 7 members so
+far. Its a good clan to join, because it not just one game, and you may be able
+to get a position high up in the ranks of the clan. If you ask nicley and have
+talent. Of course
+
+Website : http://www.geocities.com/The_disgruntled_postmen_clan/
+Contact : neuralize@hotmail.com
+
+8.3 DeathZone clan
+Another small clan with only 12 members so far. Again if you have talent you
+may get a good position in the ranks. Has a downloads section, a large amount
+of links, a guestbook, liero ingformation, etc.
+Clan Projects
+Liero Manual : A Manual to Liero containing info, weapons, Liero 2, etc
+Maneaters project : A merge between the ManEaters clan and DeathZone.
+
+Website :http://lierodz.vze.com
+Contact :thesecretworm@hotmail.com
+8.4 RageSquad clan
+Gliptic's (Erik Lindroos) clan is probably the second biggest clan avaliable to
+Liero. It has a top-notch site with a diffrent menu and plenty of downloads. It
+has about 55 members, lots of downloads, info, help on getting Liero to work,
+its own Liero 2 sequel, messages within the clan for memebers, etc. Due to
+technical difficulties the site has not been updated for a month or two.
+
+Website : http://lierosquad.cjb.net
+Contact : webmaster@gliptic.com
+
+--------------------------------------------------------------------------------
+
+Websites/Forums
+9. Liero on the net
+Here is the section for finding Liero information on the net
+9.1 Websites
+Here are some web-sites for Liero, a brief description, webmaster and contact
+details.
+9.1.1 LieroNet
+LieroNet is a Liero site run by Sander de Jong, who is also the administrator
+of the LieroNet Forum (see section 9.2 Forums). The site has plenty of Mods,
+levels, utilities, etc. and has a nice and easy layout. Updates are fairly
+frequent and it had basically everything for Liero.
+
+Design : 4/5
+Graphics : 2/5
+Content : 5/5
+Rating : 5/5
+Website : http://LieroNet.cjb.net
+Contact : lieronet@wanadoo.nl
+9.1.2 Liero Hellhole
+LieroHellhole is a very nicely designs site with Java and frequent updates. It
+has heaps of utils, sound banks, weapon Mods. At the time of writing it had 60
+Mods, 100 Levels and 5 Fonts. It is the site i usually go to for my Liero
+stuff.
+
+Design : 5/5
+Graphics : 5/5
+Content : 5/5
+Rating : 5/5
+Website : http://www.lierohell.da.ru
+Contact :
+Either : tj.verweij@lieromail.zzn.com
+Or : alex.spy@cytanet.com.cy
+9.1.3 LieroFest
+LieroFest is a very nice-looking site with Updates every now and then and a
+large programs section, couple of sounds, and heaps of Mods. Has a lot of
+levels, but no previews. A very nice-looking site with good graphics, and a
+funny reviews section, which contains reviews of the latest and greates games,
+and why Liero is so much better than them.
+
+Design : 5/5
+Graphics : 5/5
+Content : 4/5
+Rating : 4/5
+Website : http://www.liero.wormscenter.com
+Contact : mongoosejl@hotmail.com
+
+9.1.4 LieroZone
+LieroZone is a colourfull site full of Liero stuff, moreso than most Liero
+sites. It boasts 114 (at the time of writing) levels, some of the main
+utilities, plenty of graphic Mods, and plenty of weapon Mods. Very nicely
+designed and presented site.
+
+Design : 5/5
+Graphics : 5/5
+Content : 4/5
+Rating : 4/5
+Website : http://lierozone.vze.com/
+Contact : lierozone@hotmail.com
+
+9.1.5 The Tenchul Liero Archive
+The Tenchul Liero Archive is a one-page archive of Liero weapons. It dosnt do
+what a lot of sites does (give info on Liero, news, etc), it gives you weapon
+plug-ins. It also has a link to the programs you need to download to use the
+plug-ins.
+
+Design : 4/5
+Graphics : 0/5
+Content : 4/5
+Rating : 4/5
+Website : http://lierozone.vze.com/
+Contact : tenchul@hotmail.com
+Or : alexlives@lycos.com
+9.2 Forums
+All the Forums available for Liero
+9.2.1 LieroNet forum
+The forum I frequent and so do the rest of the Liero community. It is basically
+THE Liero board. If you want to participate in the Level comp, or just talk to
+me or the rest of the Liero community, post on this board.
+
+Design : 5/5
+Graphics : 5/5
+Content : 4/5 (Thanks to Viruz)
+Rating : 6/5
+Website : http://www.lieronet.f2s.com/cgi-bin/YaBB.pl
+
+9.2.1.1 List of contacts on LieroNet forum
+Sander de Jong : Webmaster of LieroNet and administrator LieroNet forum
+Johan Wiklund : Clan leader of Terror Sabbath
+Erik Lindroos : Clan leader of RageSquad
+Durandal : Author of this guide
+Tim Verweij : Webmaster of Liero Hellhole
+Jonathan Lee : Webmaster of MongooseJL's Liero Fest
+Zero : Webmaster of LieroZone
+
+--------------------------------------------------------------------------------
+
+Liero 2 Information
+10. Liero 2 Information
+This is where the information on all the Liero 2 projects are.
+10.1 The official Liero 2
+The official Liero 2 was announced by Joosa (The maker of Liero) on the
+26/10/2000, then, when asked later if he was making it, the reply was 'not
+right now'. So we wait and hope...
+10.2 RageSquads Liero Sequel
+Here is a little info on the RageSquad Liero 2 Sequel
+
+More info about WinLiero:
+* Fully customizable views (One fullscreen view or two at the bottom and one
+large at the top or whatever you like!)
+* Compound materials in the levels (You set flags like weapon-pass, worm-pass,
+destroyable and so on to make your own materials).
+* Any map size (They must be larger than the screen of course).
+* 640x480 resolution.
+* Tile technology and Level compression makes levels small and possible to
+transfer to other when playing over a network or the Internet.
+* Network / Internet play will be added a little later because the code is a
+bit complicated.
+* Support for MOD, XM, S3M, MP3 and other formats (I use FMOD!!!).
+* As many Weapons, Objects and Special Objects as you like!
+* Much more weapon/object/special object settings.
+
+At the moment there is no decided name for the project yet. There have been may
+suggestions for it on the LieroNet forum, but there has been no decision as
+yet. The project info can also be found at the RageSquads site.
+
+Website : http://lierosquad.cjb.net (Under the Liero 2 section)
+Contact : webmaster@gliptic.com
+
+
+10.3 L2
+The other unofficial Liero sequel is L2. It was given this name through a poll
+on the L2 Website. It began as a discussion on the old Liero Hellhole and grew
+into a large project. It started out having 15 visitors a day, now it has over
+250 visitors a day.
+
+It began on the 1/7/2000. 25 days later it had had 1000 visitors. Many people
+contribute demos for physics and other various parts of the game. One of these
+people, Fred Alger, became one of the coders for L2 on the 25/11/2000. It then
+got its name, L2, on the 8/12/200. On the 5/2/2001 the L2 Tech test was
+released. 13/2/2001, the site had 20,000 hits. On the 23/3/2001 the site had
+30,000 hits. 24/3/2001 L2 Liquid test was released. Then on the 12/4/2001 the
+second Liquid Test is released.
+
+You can contribute to this project by sending in your artwork, idea, etc. The
+L2 project is expected to have a BETA version available by Autumn and a full
+version by Christmas. And when I asked the project leader if threes anything
+else he had to say on the project, he replied
+'Heh, mmmm..... well, there were a lot of people that thought we would never
+get anywhere, and I guess that just made me more determined :), and now we are
+getting somewhere :)". - Dom Orchard
+
+Website : http://members.tripod.co.uk/liero2
+Contact : dom229@hotmail.com
+
+--------------------------------------------------------------------------------
+
+Bugs/Troubleshooting
+
+11. Liero Bugs/Troubleshooting
+
+11.1 Bugs
+There are a few bugs in Liero. Here is all the bugs listed (so far) and how to
+fix them. Thanks to Tim Verweij for telling me of these bugs
+
+11.1 Level freezing when not enough dirt
+Occasionally Liero will freeze when there is not enough dirt in a level. Simply
+put more dirt in it until it works.
+
+11.1.2 Ninja rope doing weird things
+The ninja rope will occasionally do weird things when somebody walks over it,
+or you try and attach it to the enemy player. Simply release the ninja rope to
+fix this one.
+
+11.1.3 Weapons jamming
+The weapons will occasionally jam and continue to say loading even though it is
+loaded. To fix, you will have to trade your weapon with one in a crate.
+
+11.1.4 Runtime errors
+If you have a old version of Liero and a fast computer, Liero may crash with a
+Runtime error. Download the Latest version of Liero to fix this.
+
+11.1.5 Out of screen
+If you shoot a weapon with big recoil while you are against the edge of a level
+(facing away from the edge), you may get 'shot' out of the level. If you
+continue to shoot, you can re-appear on the other side of the level.
+
+--------------------------------------------------------------------------------
+
+NEX7+
+
+13. NEX7+
+
+13.1 What is NEX7?
+NEX7+ is a Liero-style game made in Visual Basic. It provides a different type
+of play than Liero, and introduces the concept of money, a shop, and a jetpack.
+You start off the game with a little money and a Auto Cannon. You get money for
+shooting/killing people, and when you have enough money, you can buy a better
+weapon. When you die, you drop all your weapons for other players to pick up.
+You can have up to 15 bots in a game. Network and online play is currently
+being developed.
+
+13.2 Where can I get NEX7+
+You can get NEX7+ on the official site at: http:\\nex7.cjb.net
+
+13.3 Contact
+You can contact the author of NEX7+ at
+
+--------------------------------------------------------------------------------
+
+Other Stuff
+
+14. Other Stuff
+Heres where anything that dosnt fit in anywhere else will go, like Artwork etc.
+If you have something that will fit in here, please contact me.
+
+--------------------------------------------------------------------------------
+
+Liero Community history
+
+15. Liero Community history
+To be completed
+
+--------------------------------------------------------------------------------
+
+Interviews
+16. Interviews
+Here are the interviews I gave some of the prominent members of the Liero
+Community.
+16.1 Tim Verweij's Interiew
+Interview date : 02/05/01
+
+Net name(s) : Aapnormaal, LoResDude (on KahnCentral)
+Real name : Tim Johan Verweij
+Age : 19
+Gender : uuuhh, oh yes, Male :P
+Languages : Dutch, English. Thats pretty much it.
+Location : City: Amsterdam, Province: Noord Holland, Country: The Netherlands
+Music : Metallica, Sepultura, Prodigy, Garbage, Hive, Herman van Veen
+Intrests (beside Liero) : Other computer stuff, playing the recorder (thats
+blokfluit in Dutch). I study Artificial Intelligence. It is quite interesting,
+it includes Psychology and Language structure/semantics etc. I also like hiking
+mountains (too bad we don't have them here). Sometimes I go climbing at a
+climbing hall.
+
+Durandal: When did you find out about liero?
+Tim: Summer 2000
+
+Durandal: How did you find out about liero?
+Tim: I was looking for some freeware games. I ended up at freegamesweb.com
+(Ingava). The site no longer exsists, but it was one of the best freeware sites
+in my opinion. I believe Liero was rated *top pick*.
+
+Durandal: What was your first game of liero like?
+Tim: My first liero game was a bit dull. (Playing with the CPU) But soon after
+that I was fragging my friends. ;)
+
+Durandal: Where did you get your nick from?
+Tim: I just made Aapnormaal up. I mixed Aap & abnormaal. I don't think these
+words need any explaining. ;) The same for LoResDude. Maybe I'm trying to tell
+ppl I like old Low-Res games.
+
+Durandal: Whats with the picture on your profile?
+Tim: The picture in my profile is a character (Tim the enchanter) from the
+movie Monty Python and the Holy Grail. When King Arthur and his knights meet
+him Arthur asks "By what name are you known." and he answers: "There are some
+who call me.... 'Tim'?" which is the text under my picture. For more
+information see http://www.montypython.net
+
+Durandal: What inspired you to you make SND Tools , LEV Tools and MB maker?
+Tim: SND Tools: People were screaming for it in the Wormhole guestbook ;) Johan
+Otterud said he would make a sound editor, but hey you know Johan. He doesn't
+hurry up. So I made it.
+I made LEV Tools because I thought I could do better than WormHole 1.0. Johan
+again didn't hurry up with WH1.5 so I programmed LEV Tools.
+MB Maker was actually an idea of Ulvhockey (Johan Wiklund).
+
+Durandal: Do you have any plans for other programs?
+Tim: Nothing big really. I have made aother preview maker. Its basically a
+remake of LEV2BMP, but this program uses the Liero palette from LIERO.EXE and
+it can make the shadows right. I may release it, but I need to find a way to
+make it faster first. Actually I am making WormHole 2 together with Johan O
+(I'm doing Liero hacking, he's doing all the programming). But as I said on the
+messageboard he seems to be abducted by Aliens *again*.
+
+Durandal: How do you feel to be a part of the community?
+Tim: I guess if I didn't like it I would have left months ago. ;D
+
+Durandal: What do you think of the Liero 2 sequels?
+Tim: L2 looks quite promising and I am pretty sure Gliptic will do a good job
+in making his Liero remake for Windows. As for all the other Liero
+remakes/sequels/clones I'm not sure if they will survive.
+
+Durandal: What do you think of NEX7+?
+Tim: I don't like it that much, but maybe network play will make things better.
+;)
+
+Durandal: Are you going to be a active participant in the Liero community for a
+while?
+Tim: I think so, although I have been thinking about taking a break from all
+Liero stuff.
+
+Durandal: Any plans for more liero projects?
+Tim: I'm setting up a new site for the Liero Level Competition. I hope
+Ulvhockey will be online soon, so we can finish it and start working on the
+next competition.
+
+Durandal: Are you part of a clan?
+Tim: Yes, I am member of the Terror Sabbath Clan.
+
+Durandal: Are you good friends with other important people in the community?
+Tim: I am good friends with Johan Wiklund, Johan Otterud, Sander de Jong and
+Dom Orchard.
+
+Durandal: Anything else you want to say?
+Tim: Just 'Inderdaad'. Thanks.
+
+16.2 Degauss' Interview
+Interview dats :04/05/01
+
+Net name(s) : Degauss, Simon
+Real name : Simon Hermansson
+Age: 14
+Gender : Male
+Languages : Swedish, English
+Location : Gothenburg, Sweden
+Intrests (beside Liero) : Plays guitar, Socialize with my friends, HTML
+
+Durandal: When did you find out about liero?
+Degauss: About three years ago.
+
+Durandal: How did you find out about liero?
+Degauss: Through an old friend of mine.
+
+Durandal: What was your first game of liero like?
+Degauss: Like hell, my friend beat me up REAL good.
+
+Durandal: Where did you get your nick from?
+Degauss: The button on the monitor that cleans your screen from magnetism.
+
+Durandal: How do you feel to be a part of the community?
+Degauss: Very good actually.
+
+Durandal: What do you think of the Liero 2 sequels?
+Degauss: They're good
+
+Durandal: What do you think of NEX7+?
+Degauss: What is NEX7+?
+
+Durandal: Are you going to be a active participant in the Liero community for a
+while?
+Degauss: Yes.
+
+Durandal: Why the merge between maneaters and deathzone?
+Degauss: Well me and secret thought it was to much to do by our selves. And it
+wasn't going to good for my clan anyway (I had 4 members). So we came up to a
+solution; joined clans. So I'll be doing the mebers section and the downloads
+sectionand secret will do the rest. But I'll also have a little bit to say
+about the design.
+
+Durandal: How many members do you have?
+Degauss: Four in ManEaters. And 13 in Deathzone. That makes 17.
+
+Durandal: Any big plans for the future of tha clan?
+Degauss: I think we're going to change some things like the ones said above
+about members section and downloads.
+
+Durandal: Are you good friends with other important people in the community?
+Degauss: If you mean if I know them privately, no.
+
+Durandal: Anything else you want to say?
+Degauss: No, nothing.
+
+
+16.3 Klaus' Interview
+Interview date : 03/05/01
+
+Net name(s) : CodeMaster
+Real name : Klaus J. Pfeiffer
+Age: 15,75
+Gender : I think... hmm.. let's have a look, oh male =)
+Languages : German, english, french (a little bit)
+Location : Upper Austria/Austria
+Intrests (beside Liero) : Programming, moped-driving, table-tennis, swimming,
+having fun with friends, going out, listen to music, ...
+
+
+Durandal : When did you find out about liero?
+Klaus : Uhm... I think it was ... December 1999
+
+
+Durandal : How did you find out about liero?
+Klaus : A friend told me that he has found a cool game which they often play at
+school. He says it is a worms realtime game and I thought, Cool! Searched for
+Liero, found Liero, played it.
+
+
+Durandal : What was your first game of liero like?
+Klaus : I can hardly remember, but at first my friend wins all games, then I
+got more health =) and in a few weeks I have beaten him every game (with normal
+energy) =)
+
+
+Durandal : Where did you get your nick from?
+Klaus : I only thought of coding (Code) a game and I'm the master (j/k) =)
+--Klaus : CodeMaster.
+
+
+Durandal : How do you feel to be a part of the community?
+Klaus : Oh, I feel really good. ;)
+
+
+Durandal : What do you think of the Liero 2 sequels?
+Klaus : Cool. I'm looking forward to see those sequels. I was amazed of the
+speed of the liquid fire water test for L2.
+
+
+Durandal : What do you think of NEX7+?
+Klaus : Well, what will the creator think of his own game =) I think that NEX7+
+is cool.
+
+
+Durandal : Whats planned for NEX7+?
+Klaus : I've lots of ideas for NEX7+, but I don't know which of these ideas
+I'll really make. Internet gaming is an essentiell feature. Maybe I'll also add
+new graphics and different races.
+Klaus : I got PHP to work and I'll make a whole new website design, with lots
+of features! You'll be able to sign up as beta tester, or you can organize some
+fights and lots of more stuff. (Clan lists)
+
+
+Durandal : Whens it coming out?
+Klaus : A good question. I think it will be ready until June, but for some
+reasons I haven't programmed very much during the last weeks.
+
+
+Durandal : How big do you think it will be?
+Klaus : How big? I think 6 MB. =) I hope that somedays the NEX7+ community will
+be as big as the Liero community. I know that I have to work lots for this.
+
+
+Durandal : Are you going to be a active participant in the Liero community for
+a while?
+Klaus : Well, I don't make anything for liero (itself), only for NEX7+ and for
+my own Liero. There are enough people who make programs and tools for Liero.
+
+
+Durandal : Are you part of a clan?
+Klaus : Nope, and I don't want to join one.
+
+
+Durandal : Are you good friends with other important people in the community?
+Klaus : No, my real life friends aren't in the community. But I've some ICQ
+contact with other members like Neuralize, mpeg4.
+
+
+Durandal : Anything else you want to say?
+Klaus : tsx.org sucks! Thanks!
+
+16.4 Ulvhockey's Interview
+Interview date : 08/05/01
+
+Net name(s) : Ulvhockey, Creeping Death (not anymore)
+Real name : Johan Gustaf Wiklund
+Age: 20 (27th Feb, 1981)
+Gender : Male
+Languages : Swedish, English, Norwegian, some german
+Location : West Sweden
+Music : Metal: Metallica, System of a Down. Punk, Jimi Hendrix, and any other
+songs that might be good. Punk rock, Punk metal, the Misfits. anything good.
+Intrests (beside Liero) : Some sports, hockey mainly. Computers; Photoshop, NHL
+98, Colonization.
+
+Durandal : When did you find out about liero?
+Ulvhockey :Spring 2000 I believe. But I didnt actually see and play it until
+summer 2000. June I think.
+
+Durandal : How did you find out about liero?
+Ulvhockey :My cousin, known as Shiva.
+
+Durandal : What was your first game of liero like?
+Ulvhockey :Hard (shiva whooped my ass)
+
+Durandal : Where did you get your nick from?
+Ulvhockey :myself. Ulv = wolf
+
+Durandal : How do you feel to be a part of the community?
+Ulvhockey :good. Most of the time I feel appretiated. Sometimes not.
+
+Durandal : How does it feel to be the leader of Terror Sabath?
+Ulvhockey :Its a heavy burden. I hate responsibility, but know I brought this
+on myself. I just try to make the work as easy as possible so that I can do it.
+If I set my goals too high, I can reach them.
+
+Durandal : Any great plans for TS?
+Ulvhockey :Yes... too many.
+
+Durandal : Any big changes in the works for TS?
+Ulvhockey :Liero2 will change about 90% of the clans behavior
+
+Durandal : What do you think of the Liero 2 sequels?
+Ulvhockey :I want Liero 1.33 + internet playablility. Anything else is just a
+bonus.
+
+Durandal : What do you think of NEX7+?
+Ulvhockey : No opinion
+
+Durandal : How has the community changed since it started?
+Ulvhockey : grown. I think a community around a great game like Liero can only
+grow. If Liero2 comes out. It can reach any level. When I came in, there was
+one forum everyone went to. The wormhole guestbook. Now its all about the
+LieroNet forum. But I think that forum has gotten so big and messy, its hard to
+really find what you want. When I came in, you could basicly know everyone that
+was in the board, if you wanted to. But now, there are too many ppl involved.
+But I try...
+
+Durandal : Are you going to be a active participant in the Liero community for
+a while?
+Ulvhockey : yes, as long as I can and as its fun.
+
+Durandal : Are you good friends with other important people in the community?
+Ulvhockey : yes.. if you count Tim as important. :D I talk a lot to MongooseJL
+too, and Dom occationally. Sometimes I talk to myself to ;)
+
+Durandal : Anything else you want to say?
+Ulvhockey : Naaa...I dont think I can say much more than what I have said
+already. Ive been involved a whole year soon. Whatever I have to say. I´ll say
+somewhere where everyone can see it. But for now, i have nothing more to say...
+16.5 Sander's Interview
+Interview date : 08/05/01
+
+Net name(s) : ZanderZ/Spinal
+
+
+Real name : Sander de Jong
+Age: 17
+Gender : Male
+Languages : Dutch, English, German, Pascal ;)
+Location : Groningen, The Netherlands (Holland)
+Music : Dance, Trance, Hardcore, Hiphop, R&B, Rock, 70s
+Interests (beside Liero) : Music, TV, Programming
+When did you find out about liero? About summer 2000
+
+Durandal :How did you find out about liero?
+Sander : From a friend, Zef Hemel
+
+Durandal :What was your first game of liero like?
+Sander : Shitty, I lost!
+
+Durandal :Where did you get your nick from?
+Sander : Spinal: from the SNES game Killer Instinct, ZanderZ: Zander Zoftware
+
+Durandal :How do you feel to be a part of the community?
+Sander : It feels great
+
+Durandal :How does it feel to have MADE the community?
+Sander : That is a nice thing to know, that other people can see what I helped
+create
+
+Durandal :Tell us about LieroNet/LieroNet Forum, from the start.
+Sander : LieroNet started on April 25, 2000. I felt likt creating a website
+about the game Liero, and so LieroNet was born! The Forum was started after I
+had an old Message Board. It sucked so I wanted a new one, and this one is now
+wide-spread over the Liero community!
+
+Durandal :Any big changes in the works?
+Sander : Not really
+
+Durandal :Anything else you gonna do for the Liero Community?
+Sander : Not that I know of
+
+Durandal :Hows it feel to be Administrator?
+Sander : It's great, but it takes a lot of work
+
+Durandal :What do you think of the Liero 2 sequels?
+Sander : Like we Dutch say 'Eerst zien, dan geloven' (See first, then believe
+it)
+
+Durandal :What do you think of NEX7+?
+Sander : It's a nice game, but I don't have sound :(
+
+Durandal :How has the community changed since it started?
+Sander : Better and more sites, that's good. And of course the Forum!
+
+Durandal :Are you going to be a active participant in the Liero community for a
+while?
+Sander : Yes, I guess so, as long as I enjoy it
+
+Durandal :Are you part of a clan?
+Sander : Yup, Terror Sabbath
+
+Durandal :Are you good friends with other important people in the community?
+Sander : Well, 'friends' is a big word, but I have good conversations with Tim
+Verweij (Aapnormaal) and Johan Wiklund (Ulvhockey)
+
+Durandal :Anything else you want to say?
+Sander : Join the Forum and try out LieroM8!
+16.6 Dom. O's Interview
+
+Net name(s) : Dom. Orchard, Dom, Ray'd
+Real name : Dominic Orchard
+Age: 14
+Gender : Male
+Languages : English, French
+Location : Kent, England
+Music : Metal - PapaRoach, Rage Against the Machine, Nirvana
+Intrests (beside Liero) : Computers
+
+Durandal :When did you find out about liero? :
+Dom :Some time in the first half of 1999
+
+Durandal :How did you find out about liero? :
+Dom :Searching for free games at www.free-games-net.com
+
+Durandal :What was your first game of liero like? :
+Dom :Very odd, we couldn't work out if it was side view or we were in trenches
+or something
+
+Durandal :Where did you get your nick from?
+Dom :Random, just made it up
+
+Durandal :How do you feel to be a part of the community?
+Dom :It's great
+
+Durandal :What do you think of the Liero 2 sequels (other than your one)?
+Dom :I think the official Liero 2 by Joosa Riekkinen would be great, if it got
+completed (which may not happen), others such as Liero 2 : Liero for the next
+generation don't seem to be getting anywhere, and Wurmspiel, but maybe they are
+secretly. I think is LSP ever got off the ground that would be good as Gliptic
+is a great coder.
+
+Durandal :How has the community changed since it started?
+Dom :It has grown incredibly, when I came into the community in 1999 there
+weren't many people, and there were only a couple of liero sites, but now I
+know of over 100 sites, and that's the ones I know of, there is a massive
+gathering now, probably as many as 1000-2000 liero fans. It has been nice seing
+all the websites start and grow, like Lieronet and Liero Hell Hole.
+
+Durandal :Can you give a bit of background on L2?
+Dom :Well... in June 2000 on message board at the site that is now called Liero
+Hell Hole a few of us fans (including MPEG4 i think, who i think went on to try
+to set up his own Liero 2 project) were talking about who annoying it was that
+a new version of Liero would not occur. We then decided that maybe we should
+make our own sequel, with a main central website where everyone can pull
+together over the internet, and so on July the 1st 2000 at 19:02 GMT 0:00 the
+Liero 2 era was born with the launch or http://members.tripod.co.uk/liero2/ At
+first about 15 visitors turned up every day, then on the 4th day that shot up
+to 125, I was amazed. From there it grew and grew, not after long
+http://liero2.web.com appeared as a shorted address, but that has now
+dissapeared and gone to http://liero2.com
+
+Durandal :How soons it expected?
+Dom :Fully working BETA by autumn, fully polished with all bugs ironed out by
+the end of the year, hopefully.
+
+Durandal :Any big changes over Liero?
+Dom :Internet, Network, more players, skins on players, now in Windows
+platform, better graphics, sound, missions, faster speeds, higher
+compatibility, etc.
+
+Durandal :What do you think of NEX7+?
+Dom :I think it is great fun and very enjoyable, but it is not quite the same
+as Liero.
+
+Durandal :Are you going to be a active participant in the Liero community for a
+while?
+Dom :Maybe as long as I am alive ;) who knows, I have been in it for about 2
+years, and hopefully I have a lot more time to go in the age of L2 and Liero 2
+
+Durandal :Are you part of a clan?
+Dom :Yes, Terror Sabbath
+
+Durandal :Are you good friends with other important people in the community?
+Dom :Yeah, Johan Otterud, Tim Verweij, Ulvhockey and Shiva, I do talk to
+Gliptic sometimes, and occasionaly (but not much now) I talk to Joosa on ICQ.
+
+Durandal :Anything else you want to say?
+Dom :I hope everyone can continue working hard in the Liero community, and I
+hope that it will prosper and grow bigger and bigger.
+16.7 Gliptic's Interview
+
+Net name(s) : Gliptic
+Real name : Erik Olov Lindroos
+Age: 16
+Gender : Yes! Ohh you mean like... Male!
+Languages : Swedish, English (and a little German)
+Location : Sundsvall in Sweden
+Intrests (beside Liero) :
+* Everything involving computers.
+* Making games on Casio calculators.
+* Finding out the whole big theori which describes the whole universe (I
+haven't succeded yet)
+
+Durandal : When did you find out about liero?
+Gliptic : It was in 1999 I think
+
+Durandal : How did you find out about liero?
+Gliptic : A friend of mine said he got a really cool game. I forced him to send
+it to me and I got stuck in it!
+
+Durandal : What was your first game of liero like?
+Gliptic : You mean the first time I played Liero? It was pretty annoying since
+I didn't know how to dig and use the ninja rope.
+
+Durandal : Where did you get your nick from?
+Gliptic : From empty space... I don't know really. It just popped up in my
+head.
+
+Durandal : How do you feel to be a part of the community?
+Gliptic : Quite OK. I have been here for a while now so I'm getting used to it.
+
+Durandal : What do you think of the Liero 2 sequels?
+Gliptic : L2 seems too messed up. People are sending pictures and alot of other
+stuff which doesn't work together, the techtest looked like a simple particle
+simulator. I hope Joosa is making Liero2 since I think it will be a lot better
+than anyone of us can make it.
+
+Durandal : Hows you sequel coming?
+Gliptic : Pretty good. I haven't done much to it yet, I'm only trying out
+different types of optimizations.
+
+Durandal : Does it have a proper name yet?
+Gliptic : Not really. There are some suggestions but I haven't decided yet.
+
+Durandal : Any inside info you can give us?
+Gliptic : It will be great!!!
+
+Durandal : What do you think of NEX7+?
+Gliptic : Pretty good with all the special FX and stuff like that, but it's not
+fun when you have played for a couple of hours.
+
+Durandal : Are you going to be a active participant in the Liero community for
+a while?
+Gliptic : I don't know actually. I have alot to do, but I will visit the
+LieroNet board at least once a day :-D.
+
+Durandal : Are you part of a clan?
+Gliptic : I'm the clanleader of my own clan! (RageSquad)
+
+Durandal : Are you good friends with other important people in the community?
+Gliptic : Not that good
+
+Durandal : What music do you listen to?
+Gliptic : Almost anything (except Punk and similar)
+
+Durandal : Anything else you want to say?
+Gliptic : Eat my shorts!
+
+
+--------------------------------------------------------------------------------
+
+Forum FAQ
+17 Forum FAQ
+This is a section on how to use, behave and enjoy the Liero Forum. This is
+recommended reading for everyone, not just newbies. This is not going to be an
+in-depth FAQ, just some things that need to be adhered to.
+17.1 General use
+17.1.1 Login
+Login is case-sensitive. I decided to put this in because it caught me out.
+17.1.2 Posting
+Here are the ins and outs of posting:
+
+In's
+You should only post on-topic.
+You should keep it to the point.
+You should use names if replying to someone in particular.
+You should try to keep your criticisim as constructive as possible
+Outs
+You shouldnt quote a post when you are directly beneath it.
+You shouldnt use uppercase the whole quote.
+You shouldnt use large fonts the whole quote.
+You shouldnt attack somebody. If you want to have an argument/heated
+duscussion, Private message them or E-Mail them
+
+
+17.1.3 New threads
+You shouldnt start new threads without first checking that your post hasnt
+already been covered and that it is a worthwile topic. New threads push the
+other ones down, and if there is an important thread followed by a lot of
+unimportant ones the people who are trying to have a important conversation
+will get quite annoyed.
+
+17.1.4 Avitars/Pictures
+You should keep you Avitar (the pic under your name) something kids can see.
+The forum has young teenagers in it.
+
+17.1.5 Swearing
+Again as above, keeping swearing under control. The odd word isnt bad here and
+there, but dont push it too much.
+
+17.1.6 Spamming
+Dont do it. If you do, you will be found and you will be banned.
+
+17.1.7 Moderators
+Some people of the community are what is called moderators. They have access to
+functions that other users dont, like locking topics, deleting posts etc. They
+help keep spammers out and good posts in. You should speak to one of these
+people if you need help. They should be friendly and helpfull.
+
+17.2 Liero Forum Dictionary
+This is a dictonary of thing you should know about in the liero forum. The
+original idea and most of these are done by Ulvhockey.
+
+de Jong, Sander
+Type: Person
+Sander de Jong is the creator of the popular website: LieroNet. He is from the
+Netherlands and is also a programmer. He created his own blood increaser called
+MoreBlood and now constantly improves his LieroM8, a program that helps you
+manage your Liero files. Sander is reachable through: E-mail, the YaBB board
+and ICQ.
+
+
+Durandal
+Type: Person
+Durandal is the creator of the official Liero FAQ, called LieroGuide. He is
+also developing a Liero editor, CharEd, and he owns the Liero webring. He has
+risen to position of Moderator on most of the YaBB boards and has the time for
+a friendly chat.
+
+
+Inderdaad
+Type: Term/Word
+
+Listen  This word is common in the large Liero forum (LieroNet forum/Message
+board/YaBB board/Forum/YaBB) and its dutch for "Indeed". This word was first
+used by Ulvhockey. Tim Verweij (Aapnormaal) taught Ulvhockey the word.
+
+
+Joosa
+Type: Person
+Joosa Riekkinen, the mysterious creator of Liero. He created Liero from the
+very first version up to v. 1.33. After that there has been little word from
+him. He extremely rarely replys to e-mails etc and seems to be very busy. Not
+really confirmed but most likely he is studying. He was around 16 when he made
+Liero according to his ICQ information. Joosa is mostly known to appear on ICQ
+and throuh e-mails. Posts on messageboards and guestbooks are oftenly fake
+posts.
+
+
+Liero
+Type: Game
+This means worm in finnish. Liero is the game that you need to like if you will
+have any use of this dictionary at all.
+
+
+Level
+Type: File
+Level or Liero Level is the arena the Liero game is played on. It is a file
+with the extention: .lev and it must be placed in the same folder as Liero.exe
+in order to be used by Liero. Levels can also be called: Lev(s) or Map(s)
+
+
+LieroKit
+Type: Program
+LieroKit excists in the following versions: 1.0, 1.5, 1.6BETA1, 1.6BETA2.
+LieroKit is a program that supports editing of several Liero files. It converts
+BMP into CHR and LEV (graphic mods and levels), it can edit and create Liero
+sounds as well as fonts. It also has the revolutionary ability to easily edit
+the weapons inside Liero.exe. It can also be used to activate levels, mods,
+font, weapons and sounds with a short series of clicks. LieroKit was created by
+Erik Lindroos (also known as Gliptic). The site that originally holds LieroKit
+in its later versions is: http://lierosquad.cjb.net.
+
+
+Mod
+Type: Term/Word
+Mod means modified. A mod usually means Graphic Mod, modified Liero graphics.
+Can also be reffered to as GFX mods or skins. Liero graphics is the apperance
+of the worm and the moving objects in Liero such as fired weapons and
+explotions. The Liero graphics can be edited with help of Liero Graphics Editor
+(by Otterud) or LieroKit (by Gliptic)
+
+
+Molez
+Type: Game
+Molez is a game similar to Liero. In Molez you are a mole and you have to kill
+the opponent who is a mole too. Weapons and ninja rope, just like in Liero.
+Most people say Liero is better.
+
+
+NiL
+Type: Game
+NiL isnt Liero is a Linux version of Liero. As the name says, it is not Liero.
+Its a Liero clone.
+
+
+Otterud, Johan
+Type: Person
+Johan Otterud from Sweden wrote himself into the Liero history when he created
+the level creations tool called Wormhole. Due to hard school work he is
+prevented to work constantly on new versions of Wormhole. Otterud can easiest
+be found by mail or ICQ.
+Homepage: http://hem.passagen.se/otterud/wormhole.
+
+
+Pokemon
+Type: Enemy
+Pokemon is a Japanese carton/toy/game thing created by Nintendo. The Liero
+community is close to 100% against Pokemon.
+
+
+Poll
+Type: Tool
+The Liero Poll, ran by: Terror Sabbath Poll Service. A division within Terror
+Sabbath. The poll is not favorising Terror Sabbath. Its porpose is to gather
+information about the Liero fans, to help the Liero site webmasters make their
+sites more attractive to the fans. The ended polls are always replaced by new
+ones and the ended polls are archived on the Terror Sabbath (here). The polls
+are placed on several large Liero sites, and some smaller. The poll allowes ONE
+vote/24 hours.
+
+
+Spam
+Type: Term/Word
+Spam and spamming is a common phenomenon in the internet chatrooms and message
+boards. To spam is to fill a conversation with large amounts of meaningless or
+useless comments or messages. It will not be tolerated in the forum.
+
+
+Terror Sabbath
+Type: Organization
+Terror Sabbath - Liero Clan was for some reason created in July, 2000. The idea
+came from the older clan called After Ski. After Ski does no longer excist, but
+the basic idea lives on with Terror Sabbath. Terror Sabbath is now the largest
+Liero clan in the world with more than 100 memebers.
+Website: http://terrorsabbath.cjb.net
+
+
+Ulvhockey
+Type: Person
+Ulvhockey (real name: Johan Wiklund) is the clan leader of the largest Liero
+clan in the world; Terror Sabbath. The swedish native also constantly updates
+and maintains "The Liero Poll". Ulvhockey can easiest be contacted via e-mail
+or through MSN Messenger
+(add: ulvhockey@hotmail.com). ICQ is also possible.
+
+
+Verweij, Tim
+Type: Person
+Tim Verweij, living in Amsterdam has created a series or small and big Liero
+tools. Creator of LevTools which competes with Wormhole but also the maker of
+more original programs such as SND Tools and MB Maker. SND Tools for making
+Liero SND (sound) files and MB Maker to make easyly handled info files about
+newly created levels or mods. Goes under the nickname Aapnormaal and can be
+reached on ICQ and e-mail.
+
+
+Weapon Mods
+Type: Term/Word
+Modified weapons, so called weapons mods. The actual name for it is 'Weapon
+Plug-in'. The weapon Plug-in function is used in LieroKit and allowed users to
+share edited weapons. The file type is .lwp (Liero Weapon Plugin) and is a
+simple text (.txt) file that containst the nessecary information. When
+activated, the information in the .lwp file overwrites a part of the .exe code
+of your choise. The weapon plug-in was created by Gliptic, partially on request
+by the fans.
+
+
+Wormhole
+Type: Program
+Wormhole is a level creators tool. It coverts BMP images into .lev files.
+Wormhole excists in two diffrent versions until now. v. 1.01 and 1.5. The later
+version 1.5 supports more colors that the older 1.01. Wormhole was created by
+Johan Otterud and the official wormhole site can be found at the URL:
+http://hem.passagen.se/otterud/wormhole.
+
+
+YaBB
+Type: Forum/Software
+YaBB mean Yet another B*** Board and is created by the YaBB team. Part of this
+team is Zef Hemel, a friend of Sander de Jong. The YaBB is a great message
+board, easy to use and gives many opportunitys to edit the own profile. It also
+includes an instant messaging system.
+
+
+--------------------------------------------------------------------------------
+
+Conclusion
+18. Conclusion
+Well, its time to end this guide for this version. Whew, it hasn’t been easy,
+with chasing up people. Funny thing is, I’ve always been a failure at English
+and always been good at science. And here I am, not making a utility for Liero,
+but writing this Guide. I’ve had a bit of help from the odd person here or
+there, which I greatly appreciate. I have also learnt a LOT about the Liero
+community, I started off not knowing anything, and now know who owns what
+Website, and who will actually respond to messages from some guy talking about
+some guide. And the weapon guide was loooong. Its short to read, but long to
+make, with all the values I had to get. Tell me about your web-site, Mods,
+programs, etc. and keep sending in. Its free advertisement.
+18.1 Thanks
+My thanks go out to
+
+Johan Wiklund : For the interest, for info on his clan and proof-reading
+Sander de Jong : For putting up with my constant questions
+Tim Verweij : For answering my technical questions
+YH : For proof-reading and pointing out errors, etc.
+Killer Worm : For the LieroGuide logo
+
+18.2 Contact
+You can contact me at nallan@hotkey.net.au. Submit info I have left out, your
+Website, Mods, stuff, anything you want. You can also contact me on ICQ :
+31060303. Or visit the official LieroGuide homepage at
+http://lieroguide.klow.org
+17.8 Version History
+Current version : 1.00
+
+--------------------------------------------------------------------------------
+Version 1.00
+First version of the guide. Wrote the whole damn thing. Took about a two and a
+half weeks for the writing and a month or more to chase people up.
+Date Completed :  18/5/01
+Size at that time : 89.0 KB
