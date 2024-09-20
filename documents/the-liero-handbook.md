@@ -614,7 +614,7 @@ Graphics mods are basically the graphics files, but altered. You can make some r
 
 Using a very special program called LieroKit, you can alter or completely change the a weapon that comes with the game, or make a whole new set. Just make sure that you save a backup copy of the original weapon list. You can download it at the Liero Hellhole website (don't worry, it's not satanic).
 
-## Will there be a second version of the Liero Handbook?⭑⭑
+## Will there be a second version of the Liero Handbook?
 
 Likely, though it will come about much faster if I get plenty of feedback from those who read this (check out the "Contacting Me" section). I'm interested in any comments, questions, or suggestions. But most of all, I'm looking for battle tactics, and strategies of any kind.
 
